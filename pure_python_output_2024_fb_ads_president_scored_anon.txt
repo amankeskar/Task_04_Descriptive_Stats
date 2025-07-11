@@ -1,0 +1,1 @@
+Output for pure python fb ads script.

@@ -1,0 +1,188 @@
+
+========== Header and First 5 Rows ==========
+Header: ['id', 'url', 'source', 'retweetCount', 'replyCount', 'likeCount', 'quoteCount', 'viewCount', 'createdAt', 'lang', 'bookmarkCount', 'isReply', 'isRetweet', 'isQuote', 'isConversationControlled', 'quoteId', 'inReplyToId', 'month_year', 'illuminating_scored_message', 'election_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'scam_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+
+First 5 rows of data:
+shape: (5, 47)
+┌────────────────────────┬────────────────────────┬────────────────────┬──────────────┬───┬────────────────────────┬───────────────────┬───────────────────────┬────────────────────┐
+│ id                     ┆ url                    ┆ source             ┆ retweetCount ┆ … ┆ incivility_illuminatin ┆ scam_illuminating ┆ freefair_illuminating ┆ fraud_illuminating │
+│ ---                    ┆ ---                    ┆ ---                ┆ ---          ┆   ┆ g                      ┆ ---               ┆ ---                   ┆ ---                │
+│ str                    ┆ str                    ┆ str                ┆ f64          ┆   ┆ ---                    ┆ f64               ┆ i64                   ┆ i64                │
+│                        ┆                        ┆                    ┆              ┆   ┆ f64                    ┆                   ┆                       ┆                    │
+╞════════════════════════╪════════════════════════╪════════════════════╪══════════════╪═══╪════════════════════════╪═══════════════════╪═══════════════════════╪════════════════════╡
+│ cc46051622b8a9c1b883a3 ┆ f70a206472e9deaf6e3132 ┆ Twitter for iPhone ┆ 10.0         ┆ … ┆ 1.0                    ┆ 0.0               ┆ 0                     ┆ 0                  │
+│ bbf12c64…              ┆ 97c1efb8…              ┆                    ┆              ┆   ┆                        ┆                   ┆                       ┆                    │
+│ 0e3db0c35a290c6df3b737 ┆ a1962f54943732a0dc006c ┆ Twitter for iPhone ┆ 421.0        ┆ … ┆ 1.0                    ┆ 0.0               ┆ 0                     ┆ 0                  │
+│ d1588284…              ┆ 33b4b6f5…              ┆                    ┆              ┆   ┆                        ┆                   ┆                       ┆                    │
+│ 256905919085d2946d5d18 ┆ 4ddbbdb7f4d8ef62fccf3e ┆ Twitter for iPhone ┆ 39.0         ┆ … ┆ 1.0                    ┆ 0.0               ┆ 0                     ┆ 0                  │
+│ 7abc6cbe…              ┆ d20c993b…              ┆                    ┆              ┆   ┆                        ┆                   ┆                       ┆                    │
+│ a461b32b31e72b222df7fd ┆ c7e729c427e714baf06d88 ┆ Twitter for iPhone ┆ 47.0         ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0                     ┆ 0                  │
+│ da0a8e68…              ┆ a2856a1b…              ┆                    ┆              ┆   ┆                        ┆                   ┆                       ┆                    │
+│ ca2795ec79d62adc1fff06 ┆ c589bd751d7e1d275901b1 ┆ Twitter Web App    ┆ 17.0         ┆ … ┆ 1.0                    ┆ 0.0               ┆ 0                     ┆ 0                  │
+│ c4d3bc9d…              ┆ 84087716…              ┆                    ┆              ┆   ┆                        ┆                   ┆                       ┆                    │
+└────────────────────────┴────────────────────────┴────────────────────┴──────────────┴───┴────────────────────────┴───────────────────┴───────────────────────┴────────────────────┘
+
+========== Descriptive Statistics for Entire Dataset ==========
+shape: (9, 48)
+┌────────────┬─────────────────────────┬─────────────────────────┬────────────────────┬───┬────────────────────────┬───────────────────┬───────────────────────┬────────────────────┐
+│ statistic  ┆ id                      ┆ url                     ┆ source             ┆ … ┆ incivility_illuminatin ┆ scam_illuminating ┆ freefair_illuminating ┆ fraud_illuminating │
+│ ---        ┆ ---                     ┆ ---                     ┆ ---                ┆   ┆ g                      ┆ ---               ┆ ---                   ┆ ---                │
+│ str        ┆ str                     ┆ str                     ┆ str                ┆   ┆ ---                    ┆ f64               ┆ f64                   ┆ f64                │
+│            ┆                         ┆                         ┆                    ┆   ┆ f64                    ┆                   ┆                       ┆                    │
+╞════════════╪═════════════════════════╪═════════════════════════╪════════════════════╪═══╪════════════════════════╪═══════════════════╪═══════════════════════╪════════════════════╡
+│ count      ┆ 27304                   ┆ 27304                   ┆ 27304              ┆ … ┆ 26034.0                ┆ 26034.0           ┆ 27304.0               ┆ 27304.0            │
+│ null_count ┆ 0                       ┆ 0                       ┆ 0                  ┆ … ┆ 1270.0                 ┆ 1270.0            ┆ 0.0                   ┆ 0.0                │
+│ mean       ┆ null                    ┆ null                    ┆ null               ┆ … ┆ 0.178574               ┆ 0.012368          ┆ 0.001428              ┆ 0.002747           │
+│ std        ┆ null                    ┆ null                    ┆ null               ┆ … ┆ 0.383003               ┆ 0.110526          ┆ 0.037767              ┆ 0.052339           │
+│ min        ┆ 0000635d0c9e7bdf89dfc13 ┆ 0000179c6b90798f167528a ┆ Canva              ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│            ┆ 811d080…                ┆ aaaf678…                ┆                    ┆   ┆                        ┆                   ┆                       ┆                    │
+│ 25%        ┆ null                    ┆ null                    ┆ null               ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 50%        ┆ null                    ┆ null                    ┆ null               ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 75%        ┆ null                    ┆ null                    ┆ null               ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ max        ┆ fffbb471d8b0bd6d990b4f9 ┆ ffffd63fa71574c0127b90e ┆ Twitter for iPhone ┆ … ┆ 1.0                    ┆ 1.0               ┆ 1.0                   ┆ 1.0                │
+│            ┆ f22283b…                ┆ 12fdba3…                ┆                    ┆   ┆                        ┆                   ┆                       ┆                    │
+└────────────┴─────────────────────────┴─────────────────────────┴────────────────────┴───┴────────────────────────┴───────────────────┴───────────────────────┴────────────────────┘
+
+========== Value Counts for Non-Numeric Columns (Top 3) ==========
+
+Top 3 source:
+shape: (3, 2)
+┌────────────────────┬───────┐
+│ source             ┆ len   │
+│ ---                ┆ ---   │
+│ str                ┆ u32   │
+╞════════════════════╪═══════╡
+│ Twitter Web App    ┆ 14930 │
+│ Twitter for iPhone ┆ 8494  │
+│ Sprout Social      ┆ 2933  │
+└────────────────────┴───────┘
+
+========== Grouped by source (showing first 3 groups) ==========
+
+Group: source=Twitter Media Studio
+shape: (9, 48)
+┌────────────┬────────────────────────┬────────────────────────┬──────────────────────┬───┬────────────────────────┬───────────────────┬───────────────────────┬────────────────────┐
+│ statistic  ┆ id                     ┆ url                    ┆ source               ┆ … ┆ incivility_illuminatin ┆ scam_illuminating ┆ freefair_illuminating ┆ fraud_illuminating │
+│ ---        ┆ ---                    ┆ ---                    ┆ ---                  ┆   ┆ g                      ┆ ---               ┆ ---                   ┆ ---                │
+│ str        ┆ str                    ┆ str                    ┆ str                  ┆   ┆ ---                    ┆ f64               ┆ f64                   ┆ f64                │
+│            ┆                        ┆                        ┆                      ┆   ┆ f64                    ┆                   ┆                       ┆                    │
+╞════════════╪════════════════════════╪════════════════════════╪══════════════════════╪═══╪════════════════════════╪═══════════════════╪═══════════════════════╪════════════════════╡
+│ count      ┆ 499                    ┆ 499                    ┆ 499                  ┆ … ┆ 459.0                  ┆ 459.0             ┆ 499.0                 ┆ 499.0              │
+│ null_count ┆ 0                      ┆ 0                      ┆ 0                    ┆ … ┆ 40.0                   ┆ 40.0              ┆ 0.0                   ┆ 0.0                │
+│ mean       ┆ null                   ┆ null                   ┆ null                 ┆ … ┆ 0.100218               ┆ 0.0               ┆ 0.006012              ┆ 0.002004           │
+│ std        ┆ null                   ┆ null                   ┆ null                 ┆ … ┆ 0.300618               ┆ 0.0               ┆ 0.077381              ┆ 0.044766           │
+│ min        ┆ 008343276015e68ec61582 ┆ 00bf0f0e23411856f5202d ┆ Twitter Media Studio ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│            ┆ 7952a525…              ┆ 51746851…              ┆                      ┆   ┆                        ┆                   ┆                       ┆                    │
+│ 25%        ┆ null                   ┆ null                   ┆ null                 ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 50%        ┆ null                   ┆ null                   ┆ null                 ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 75%        ┆ null                   ┆ null                   ┆ null                 ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ max        ┆ ff6ee359f511feecfbcad2 ┆ ff336a0617edc22a272101 ┆ Twitter Media Studio ┆ … ┆ 1.0                    ┆ 0.0               ┆ 1.0                   ┆ 1.0                │
+│            ┆ 5f2b26fa…              ┆ 1d775d8c…              ┆                      ┆   ┆                        ┆                   ┆                       ┆                    │
+└────────────┴────────────────────────┴────────────────────────┴──────────────────────┴───┴────────────────────────┴───────────────────┴───────────────────────┴────────────────────┘
+
+Group: source=Twitter for iPad
+shape: (9, 48)
+┌────────────┬──────────────────────────┬─────────────────────────┬──────────────────┬───┬─────────────────────────┬───────────────────┬───────────────────────┬────────────────────┐
+│ statistic  ┆ id                       ┆ url                     ┆ source           ┆ … ┆ incivility_illuminating ┆ scam_illuminating ┆ freefair_illuminating ┆ fraud_illuminating │
+│ ---        ┆ ---                      ┆ ---                     ┆ ---              ┆   ┆ ---                     ┆ ---               ┆ ---                   ┆ ---                │
+│ str        ┆ str                      ┆ str                     ┆ str              ┆   ┆ f64                     ┆ f64               ┆ f64                   ┆ f64                │
+╞════════════╪══════════════════════════╪═════════════════════════╪══════════════════╪═══╪═════════════════════════╪═══════════════════╪═══════════════════════╪════════════════════╡
+│ count      ┆ 266                      ┆ 266                     ┆ 266              ┆ … ┆ 266.0                   ┆ 266.0             ┆ 266.0                 ┆ 266.0              │
+│ null_count ┆ 0                        ┆ 0                       ┆ 0                ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ mean       ┆ null                     ┆ null                    ┆ null             ┆ … ┆ 0.045113                ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ std        ┆ null                     ┆ null                    ┆ null             ┆ … ┆ 0.207943                ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ min        ┆ 0060669293ae35dd6f80e629 ┆ 0282199674e3ee2a75d9a4c ┆ Twitter for iPad ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│            ┆ 3ae2ba…                  ┆ 19a2f39…                ┆                  ┆   ┆                         ┆                   ┆                       ┆                    │
+│ 25%        ┆ null                     ┆ null                    ┆ null             ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 50%        ┆ null                     ┆ null                    ┆ null             ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 75%        ┆ null                     ┆ null                    ┆ null             ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ max        ┆ fefd9150ff688675c6af472c ┆ febacdc0ad835bdd9f0be4d ┆ Twitter for iPad ┆ … ┆ 1.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│            ┆ 95af0b…                  ┆ ea55b43…                ┆                  ┆   ┆                         ┆                   ┆                       ┆                    │
+└────────────┴──────────────────────────┴─────────────────────────┴──────────────────┴───┴─────────────────────────┴───────────────────┴───────────────────────┴────────────────────┘
+
+Group: source=Twitter for Android
+shape: (9, 48)
+┌────────────┬─────────────────────────┬────────────────────────┬─────────────────────┬───┬────────────────────────┬───────────────────┬───────────────────────┬────────────────────┐
+│ statistic  ┆ id                      ┆ url                    ┆ source              ┆ … ┆ incivility_illuminatin ┆ scam_illuminating ┆ freefair_illuminating ┆ fraud_illuminating │
+│ ---        ┆ ---                     ┆ ---                    ┆ ---                 ┆   ┆ g                      ┆ ---               ┆ ---                   ┆ ---                │
+│ str        ┆ str                     ┆ str                    ┆ str                 ┆   ┆ ---                    ┆ f64               ┆ f64                   ┆ f64                │
+│            ┆                         ┆                        ┆                     ┆   ┆ f64                    ┆                   ┆                       ┆                    │
+╞════════════╪═════════════════════════╪════════════════════════╪═════════════════════╪═══╪════════════════════════╪═══════════════════╪═══════════════════════╪════════════════════╡
+│ count      ┆ 5                       ┆ 5                      ┆ 5                   ┆ … ┆ 5.0                    ┆ 5.0               ┆ 5.0                   ┆ 5.0                │
+│ null_count ┆ 0                       ┆ 0                      ┆ 0                   ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ mean       ┆ null                    ┆ null                   ┆ null                ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ std        ┆ null                    ┆ null                   ┆ null                ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ min        ┆ 2451883a465f0f53ce16b73 ┆ 248fe90f6f61edf65212bc ┆ Twitter for Android ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│            ┆ 162e3f6…                ┆ 6ec96f37…              ┆                     ┆   ┆                        ┆                   ┆                       ┆                    │
+│ 25%        ┆ null                    ┆ null                   ┆ null                ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 50%        ┆ null                    ┆ null                   ┆ null                ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 75%        ┆ null                    ┆ null                   ┆ null                ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ max        ┆ db62cda3dae85253c5b147a ┆ bb2c6760a9b38a72da3fba ┆ Twitter for Android ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│            ┆ 4707a3a…                ┆ 002f7dd7…              ┆                     ┆   ┆                        ┆                   ┆                       ┆                    │
+└────────────┴─────────────────────────┴────────────────────────┴─────────────────────┴───┴────────────────────────┴───────────────────┴───────────────────────┴────────────────────┘
+
+========== Grouped by source and id (showing first 3 groups) ==========
+
+Group: source=Twitter Web App, id=e62a29a21447e142ad90ec642c61d302ddcff92f96a54525fa1c10f055420024
+shape: (9, 48)
+┌────────────┬──────────────────────────┬──────────────────────────┬─────────────────┬───┬─────────────────────────┬───────────────────┬───────────────────────┬────────────────────┐
+│ statistic  ┆ id                       ┆ url                      ┆ source          ┆ … ┆ incivility_illuminating ┆ scam_illuminating ┆ freefair_illuminating ┆ fraud_illuminating │
+│ ---        ┆ ---                      ┆ ---                      ┆ ---             ┆   ┆ ---                     ┆ ---               ┆ ---                   ┆ ---                │
+│ str        ┆ str                      ┆ str                      ┆ str             ┆   ┆ f64                     ┆ f64               ┆ f64                   ┆ f64                │
+╞════════════╪══════════════════════════╪══════════════════════════╪═════════════════╪═══╪═════════════════════════╪═══════════════════╪═══════════════════════╪════════════════════╡
+│ count      ┆ 1                        ┆ 1                        ┆ 1               ┆ … ┆ 1.0                     ┆ 1.0               ┆ 1.0                   ┆ 1.0                │
+│ null_count ┆ 0                        ┆ 0                        ┆ 0               ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ mean       ┆ null                     ┆ null                     ┆ null            ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ std        ┆ null                     ┆ null                     ┆ null            ┆ … ┆ null                    ┆ null              ┆ null                  ┆ null               │
+│ min        ┆ e62a29a21447e142ad90ec64 ┆ b38acbe6bdb2da373c7056d3 ┆ Twitter Web App ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│            ┆ 2c61d3…                  ┆ 2fbd79…                  ┆                 ┆   ┆                         ┆                   ┆                       ┆                    │
+│ 25%        ┆ null                     ┆ null                     ┆ null            ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 50%        ┆ null                     ┆ null                     ┆ null            ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 75%        ┆ null                     ┆ null                     ┆ null            ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ max        ┆ e62a29a21447e142ad90ec64 ┆ b38acbe6bdb2da373c7056d3 ┆ Twitter Web App ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│            ┆ 2c61d3…                  ┆ 2fbd79…                  ┆                 ┆   ┆                         ┆                   ┆                       ┆                    │
+└────────────┴──────────────────────────┴──────────────────────────┴─────────────────┴───┴─────────────────────────┴───────────────────┴───────────────────────┴────────────────────┘
+
+Group: source=Twitter for iPhone, id=6e705d90ea342dd0672003a92d1fbe4ff61742a45a0cfa8428f9ca97e7300727
+shape: (9, 48)
+┌────────────┬─────────────────────────┬─────────────────────────┬────────────────────┬───┬────────────────────────┬───────────────────┬───────────────────────┬────────────────────┐
+│ statistic  ┆ id                      ┆ url                     ┆ source             ┆ … ┆ incivility_illuminatin ┆ scam_illuminating ┆ freefair_illuminating ┆ fraud_illuminating │
+│ ---        ┆ ---                     ┆ ---                     ┆ ---                ┆   ┆ g                      ┆ ---               ┆ ---                   ┆ ---                │
+│ str        ┆ str                     ┆ str                     ┆ str                ┆   ┆ ---                    ┆ f64               ┆ f64                   ┆ f64                │
+│            ┆                         ┆                         ┆                    ┆   ┆ f64                    ┆                   ┆                       ┆                    │
+╞════════════╪═════════════════════════╪═════════════════════════╪════════════════════╪═══╪════════════════════════╪═══════════════════╪═══════════════════════╪════════════════════╡
+│ count      ┆ 1                       ┆ 1                       ┆ 1                  ┆ … ┆ 1.0                    ┆ 1.0               ┆ 1.0                   ┆ 1.0                │
+│ null_count ┆ 0                       ┆ 0                       ┆ 0                  ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ mean       ┆ null                    ┆ null                    ┆ null               ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ std        ┆ null                    ┆ null                    ┆ null               ┆ … ┆ null                   ┆ null              ┆ null                  ┆ null               │
+│ min        ┆ 6e705d90ea342dd0672003a ┆ aa0a21cc510f9e87bf057c9 ┆ Twitter for iPhone ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│            ┆ 92d1fbe…                ┆ c0900d6…                ┆                    ┆   ┆                        ┆                   ┆                       ┆                    │
+│ 25%        ┆ null                    ┆ null                    ┆ null               ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 50%        ┆ null                    ┆ null                    ┆ null               ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 75%        ┆ null                    ┆ null                    ┆ null               ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ max        ┆ 6e705d90ea342dd0672003a ┆ aa0a21cc510f9e87bf057c9 ┆ Twitter for iPhone ┆ … ┆ 0.0                    ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│            ┆ 92d1fbe…                ┆ c0900d6…                ┆                    ┆   ┆                        ┆                   ┆                       ┆                    │
+└────────────┴─────────────────────────┴─────────────────────────┴────────────────────┴───┴────────────────────────┴───────────────────┴───────────────────────┴────────────────────┘
+
+Group: source=Twitter Web App, id=66207ad14cae008bdbbf9bbc26e421eed7d44cde954829b6c2338595d7766699
+shape: (9, 48)
+┌────────────┬──────────────────────────┬──────────────────────────┬─────────────────┬───┬─────────────────────────┬───────────────────┬───────────────────────┬────────────────────┐
+│ statistic  ┆ id                       ┆ url                      ┆ source          ┆ … ┆ incivility_illuminating ┆ scam_illuminating ┆ freefair_illuminating ┆ fraud_illuminating │
+│ ---        ┆ ---                      ┆ ---                      ┆ ---             ┆   ┆ ---                     ┆ ---               ┆ ---                   ┆ ---                │
+│ str        ┆ str                      ┆ str                      ┆ str             ┆   ┆ f64                     ┆ f64               ┆ f64                   ┆ f64                │
+╞════════════╪══════════════════════════╪══════════════════════════╪═════════════════╪═══╪═════════════════════════╪═══════════════════╪═══════════════════════╪════════════════════╡
+│ count      ┆ 1                        ┆ 1                        ┆ 1               ┆ … ┆ 1.0                     ┆ 1.0               ┆ 1.0                   ┆ 1.0                │
+│ null_count ┆ 0                        ┆ 0                        ┆ 0               ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ mean       ┆ null                     ┆ null                     ┆ null            ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ std        ┆ null                     ┆ null                     ┆ null            ┆ … ┆ null                    ┆ null              ┆ null                  ┆ null               │
+│ min        ┆ 66207ad14cae008bdbbf9bbc ┆ 346099271e8e6511dd33287c ┆ Twitter Web App ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│            ┆ 26e421…                  ┆ bc80b4…                  ┆                 ┆   ┆                         ┆                   ┆                       ┆                    │
+│ 25%        ┆ null                     ┆ null                     ┆ null            ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 50%        ┆ null                     ┆ null                     ┆ null            ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ 75%        ┆ null                     ┆ null                     ┆ null            ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│ max        ┆ 66207ad14cae008bdbbf9bbc ┆ 346099271e8e6511dd33287c ┆ Twitter Web App ┆ … ┆ 0.0                     ┆ 0.0               ┆ 0.0                   ┆ 0.0                │
+│            ┆ 26e421…                  ┆ bc80b4…                  ┆                 ┆   ┆                         ┆                   ┆                       ┆                    │
+└────────────┴──────────────────────────┴──────────────────────────┴─────────────────┴───┴─────────────────────────┴───────────────────┴───────────────────────┴────────────────────┘
+
+========== Script Completed ==========
+All required descriptive statistics and groupings have been displayed.

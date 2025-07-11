@@ -1,0 +1,491 @@
+
+========== Header and First 5 Rows ==========
+Header: ['Facebook_Id', 'post_id', 'Page Category', 'Page Admin Top Country', 'Post Created', 'Post Created Date', 'Post Created Time', 'Type', 'Total Interactions', 'Likes', 'Comments', 'Shares', 'Love', 'Wow', 'Haha', 'Sad', 'Angry', 'Care', 'Video Share Status', 'Is Video Owner?', 'Post Views', 'Total Views', 'Total Views For All Crossposts', 'Video Length', 'Sponsor Id', 'Sponsor Name', 'Sponsor Category', 'Overperforming Score', 'illuminating_scored_messageelection_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'scam_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+
+First 5 rows of data:
+                                                     Facebook_Id                                                          post_id       Page Category Page Admin Top Country            Post Created Post Created Date Post Created Time                Type Total Interactions  Likes  Comments  Shares  Love  Wow  Haha  Sad  Angry  Care Video Share Status Is Video Owner?  Post Views  Total Views  Total Views For All Crossposts Video Length  Sponsor Id  Sponsor Name  Sponsor Category  Overperforming Score  illuminating_scored_messageelection_integrity_Truth_illuminating  advocacy_msg_type_illuminating  issue_msg_type_illuminating  attack_msg_type_illuminating  image_msg_type_illuminating  cta_msg_type_illuminating  engagement_cta_subtype_illuminating  fundraising_cta_subtype_illuminating  voting_cta_subtype_illuminating  covid_topic_illuminating  economy_topic_illuminating  education_topic_illuminating  environment_topic_illuminating  foreign_policy_topic_illuminating  governance_topic_illuminating  health_topic_illuminating  immigration_topic_illuminating  lgbtq_issues_topic_illuminating  military_topic_illuminating  race_and_ethnicity_topic_illuminating  safety_topic_illuminating  social_and_cultural_topic_illuminating  technology_and_privacy_topic_illuminating  womens_issue_topic_illuminating  incivility_illuminating  scam_illuminating  freefair_illuminating  fraud_illuminating
+a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813 8570b69695e00d8f06b12398ed525497e1712b5369c6fc2138fe98f69811c138              PERSON                     US 2023-09-04 19:31:16 EDT        2023-09-04          19:31:16               Photo                261    104       121       8    12    0    14    0      2     0                NaN               -         0.0          0.0                             0.0          NaN         NaN           NaN               NaN                  2.29                                                               NaN                               0                            0                             0                            0                          0                                    0                                     0                                0                         0                           0                             0                               0                                  0                              0                          0                               0                                0                            0                                      0                          0                                       0                                          0                                0                        0                0.0                      0                   0
+a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813 41ec27cecd8af40007a9faf8c3e5c9225bcff0b8d58856563bbc9d59d7dbb6e6              PERSON                     US 2023-09-06 20:00:56 EDT        2023-09-06          20:00:56               Photo                135     71        41       7    11    1     3    1      0     0                NaN               -         0.0          0.0                             0.0          NaN         NaN           NaN               NaN                  1.18                                                               NaN                               1                            1                             0                            0                          0                                    0                                     0                                0                         0                           0                             1                               0                                  0                              0                          0                               0                                0                            0                                      0                          0                                       0                                          0                                0                        0                0.0                      0                   0
+a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813 1dcb5e00cd1c8d7ee141922f50f29e59e96328231b6937870e87029c97b26377              PERSON                     US 2023-09-21 09:48:09 EDT        2023-09-21          09:48:09                Link                124     33        74       4     1    1    10    0      0     1                NaN               -         0.0          0.0                             0.0          NaN         NaN           NaN               NaN                  1.44                                                               NaN                               1                            1                             1                            1                          0                                    0                                     0                                0                         0                           0                             0                               0                                  0                              0                          1                               1                                0                            0                                      0                          1                                       0                                          0                                0                        1                0.0                      0                   0
+a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813 3e5e0a047865ab02fe0f49c343963239fe7774b63e8ab6001b6ec18f4d37eeac              PERSON                     US 2023-09-06 20:01:39 EDT        2023-09-06          20:01:39               Photo                109     34        64       3     6    0     2    0      0     0                NaN               -         0.0          0.0                             0.0          NaN         NaN           NaN               NaN                 -1.05                                                               NaN                               0                            1                             1                            0                          1                                    1                                     0                                0                         0                           0                             0                               0                                  0                              0                          0                               0                                0                            0                                      0                          0                                       0                                          0                                0                        0                0.0                      0                   0
+7ec2cb4abf8effe3d91de57944c56b938b4f33059a6e33dfe23b549cf229989a b83adc0e8ac0aedd39f55b72d723729e114a83d41fd48b1b13c7ec782c9a0649 POLITICAL_CANDIDATE                     US 2023-09-27 20:13:08 EDT        2023-09-27          20:13:08 Live Video Complete            268,841 126850     53191   20701 62827  162  2241  128    642  2099          crosspost             Yes   1332813.0    1468579.0                       1494352.0     01:08:20         NaN           NaN               NaN                  2.79                                                               NaN                               0                            0                             0                            0                          0                                    0                                     0                                0                         0                           0                             0                               0                                  0                              0                          0                               0                                0                            0                                      0                          0                                       0                                          0                                0                        0                0.0                      0                   0
+
+========== Descriptive Statistics for Entire Dataset ==========
+                                                                    count unique                                                               top   freq         mean           std     min   25%    50%    75%        max
+Facebook_Id                                                         19009     21  32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064   9013          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+post_id                                                             19009  19009  8570b69695e00d8f06b12398ed525497e1712b5369c6fc2138fe98f69811c138      1          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Page Category                                                       16537      6                                                            PERSON   9453          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Page Admin Top Country                                              16280      1                                                                US  16280          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Post Created                                                        19009  18951                                          2024-09-30T13:47:21.000Z      2          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Post Created Date                                                   19009    425                                                        2024-10-31    103          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Post Created Time                                                   19009  16102                                                          17:30:01      7          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Type                                                                16544      9                                                              Link   7404          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Total Interactions                                                  19009   5665                                                                15    115          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Likes                                                             19009.0    NaN                                                               NaN    NaN  2377.695407  11253.469669     0.0  31.0  139.0  738.0   351979.0
+Comments                                                          19009.0    NaN                                                               NaN    NaN   901.583197   3681.980096     0.0   8.0   48.0  354.0    93872.0
+Shares                                                            19009.0    NaN                                                               NaN    NaN   320.538955   1722.159879     0.0   3.0   21.0  102.0    76150.0
+Love                                                              19009.0    NaN                                                               NaN    NaN   413.877321    3730.94045     0.0   0.0    4.0   70.0   244482.0
+Wow                                                               19009.0    NaN                                                               NaN    NaN     5.868326     52.946979     0.0   0.0    1.0    3.0     4345.0
+Haha                                                              19009.0    NaN                                                               NaN    NaN   105.719712    942.034248     0.0   0.0    2.0   29.0    99276.0
+Sad                                                               19009.0    NaN                                                               NaN    NaN    10.172182    418.325007     0.0   0.0    0.0    2.0    56111.0
+Angry                                                             19009.0    NaN                                                               NaN    NaN      20.0555    156.020089     0.0   0.0    1.0    9.0    11814.0
+Care                                                              19009.0    NaN                                                               NaN    NaN    34.929034    790.103213     0.0   0.0    0.0    6.0    85236.0
+Video Share Status                                                   3271      3                                                             owned   3100          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Is Video Owner?                                                     16544      3                                                                 -  13280          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Post Views                                                        16544.0    NaN                                                               NaN    NaN  6485.058511  90392.958445     0.0   0.0    0.0    0.0  4276477.0
+Total Views                                                       16544.0    NaN                                                               NaN    NaN  7461.847014  95976.278848     0.0   0.0    0.0    0.0  4462155.0
+Total Views For All Crossposts                                    16544.0    NaN                                                               NaN    NaN  3555.937984  88094.048319     0.0   0.0    0.0    0.0  4499458.0
+Video Length                                                         3271    774                                                          00:00:30     83          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Sponsor Id                                                            0.0    NaN                                                               NaN    NaN          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Sponsor Name                                                          0.0    NaN                                                               NaN    NaN          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Sponsor Category                                                      0.0    NaN                                                               NaN    NaN          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+Overperforming Score                                              16544.0    NaN                                                               NaN    NaN     -2.74416      7.808477 -198.75 -3.87  -1.62   1.16     246.78
+illuminating_scored_messageelection_integrity_Truth_illuminating      0.0    NaN                                                               NaN    NaN          NaN           NaN     NaN   NaN    NaN    NaN        NaN
+advocacy_msg_type_illuminating                                    19009.0    NaN                                                               NaN    NaN     0.549266       0.49758     0.0   0.0    1.0    1.0        1.0
+issue_msg_type_illuminating                                       19009.0    NaN                                                               NaN    NaN     0.460308      0.498435     0.0   0.0    0.0    1.0        1.0
+attack_msg_type_illuminating                                      19009.0    NaN                                                               NaN    NaN     0.216687      0.411998     0.0   0.0    0.0    0.0        1.0
+image_msg_type_illuminating                                       19009.0    NaN                                                               NaN    NaN     0.148561      0.355665     0.0   0.0    0.0    0.0        1.0
+cta_msg_type_illuminating                                         19009.0    NaN                                                               NaN    NaN     0.132832      0.339402     0.0   0.0    0.0    0.0        1.0
+engagement_cta_subtype_illuminating                               19009.0    NaN                                                               NaN    NaN     0.090852      0.287406     0.0   0.0    0.0    0.0        1.0
+fundraising_cta_subtype_illuminating                              19009.0    NaN                                                               NaN    NaN     0.018412      0.134441     0.0   0.0    0.0    0.0        1.0
+voting_cta_subtype_illuminating                                   19009.0    NaN                                                               NaN    NaN      0.02341      0.151206     0.0   0.0    0.0    0.0        1.0
+covid_topic_illuminating                                          19009.0    NaN                                                               NaN    NaN     0.052396      0.222831     0.0   0.0    0.0    0.0        1.0
+economy_topic_illuminating                                        19009.0    NaN                                                               NaN    NaN     0.090378       0.28673     0.0   0.0    0.0    0.0        1.0
+education_topic_illuminating                                      19009.0    NaN                                                               NaN    NaN     0.014993      0.121527     0.0   0.0    0.0    0.0        1.0
+environment_topic_illuminating                                    19009.0    NaN                                                               NaN    NaN     0.022253      0.147508     0.0   0.0    0.0    0.0        1.0
+foreign_policy_topic_illuminating                                 19009.0    NaN                                                               NaN    NaN     0.036877      0.188465     0.0   0.0    0.0    0.0        1.0
+governance_topic_illuminating                                     19009.0    NaN                                                               NaN    NaN     0.031091      0.173567     0.0   0.0    0.0    0.0        1.0
+health_topic_illuminating                                         19009.0    NaN                                                               NaN    NaN     0.048661      0.215164     0.0   0.0    0.0    0.0        1.0
+immigration_topic_illuminating                                    19009.0    NaN                                                               NaN    NaN     0.040823      0.197885     0.0   0.0    0.0    0.0        1.0
+lgbtq_issues_topic_illuminating                                   19009.0    NaN                                                               NaN    NaN     0.003367      0.057928     0.0   0.0    0.0    0.0        1.0
+military_topic_illuminating                                       19009.0    NaN                                                               NaN    NaN     0.005576      0.074468     0.0   0.0    0.0    0.0        1.0
+race_and_ethnicity_topic_illuminating                             19009.0    NaN                                                               NaN    NaN     0.021569      0.145274     0.0   0.0    0.0    0.0        1.0
+safety_topic_illuminating                                         19009.0    NaN                                                               NaN    NaN     0.032195      0.176523     0.0   0.0    0.0    0.0        1.0
+social_and_cultural_topic_illuminating                            19009.0    NaN                                                               NaN    NaN     0.061708       0.24063     0.0   0.0    0.0    0.0        1.0
+technology_and_privacy_topic_illuminating                         19009.0    NaN                                                               NaN    NaN     0.002052       0.04525     0.0   0.0    0.0    0.0        1.0
+womens_issue_topic_illuminating                                   19009.0    NaN                                                               NaN    NaN     0.025462      0.157527     0.0   0.0    0.0    0.0        1.0
+incivility_illuminating                                           19009.0    NaN                                                               NaN    NaN     0.127887      0.333972     0.0   0.0    0.0    0.0        1.0
+scam_illuminating                                                 18060.0    NaN                                                               NaN    NaN      0.02021      0.140723     0.0   0.0    0.0    0.0        1.0
+freefair_illuminating                                             19009.0    NaN                                                               NaN    NaN     0.002841      0.053224     0.0   0.0    0.0    0.0        1.0
+fraud_illuminating                                                19009.0    NaN                                                               NaN    NaN     0.008627      0.092485     0.0   0.0    0.0    0.0        1.0
+
+========== Value Counts for Non-Numeric Columns (Top 3) ==========
+
+Column: Facebook_Id
+32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064    9013
+bfe51c6ac2cab17ba5c85883e76f61398031ed57e4cf62d19fd483548ebb904b    1431
+ac24f31c4d4b3d5555065fa9558bdca4ab4b5e1379922875ae9e6e32f1d46d25    1231
+
+Column: post_id
+8570b69695e00d8f06b12398ed525497e1712b5369c6fc2138fe98f69811c138    1
+c94dbf5aeb84cc37a4d35892dc9b2154f6ea86b181e896dfe8dd87c3e34c5558    1
+ab139678dcef59090a9f96b76980050d3a1ea4922a43e1695863ecb00212008f    1
+
+Column: Page Category
+PERSON        9453
+ACTOR         3304
+POLITICIAN    2595
+
+Column: Page Admin Top Country
+US    16280
+
+Column: Post Created
+2024-09-30T13:47:21.000Z    2
+2024-10-31T16:05:19.000Z    2
+2024-10-30T15:21:40.000Z    2
+
+Column: Post Created Date
+2024-10-31    103
+2024-01-10    102
+2024-01-15     96
+
+Column: Post Created Time
+17:30:01    7
+19:42:00    7
+19:30:02    6
+
+Column: Type
+Link            7404
+Photo           3820
+Native Video    2931
+
+Column: Total Interactions
+15    115
+23    115
+26    113
+
+Column: Video Share Status
+owned        3100
+share          99
+crosspost      72
+
+Column: Is Video Owner?
+-      13280
+Yes     3181
+No        83
+
+Column: Video Length
+00:00:30    83
+00:01:00    50
+00:00:59    37
+
+========== Grouped by Facebook_Id (showing first 3 groups) ==========
+
+Group: Facebook_Id=058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b
+                                                                  count unique                                                               top freq        mean          std   min     25%    50%     75%      max
+Facebook_Id                                                         210      1  058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b  210         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+post_id                                                             210    210  1cea6a3ba6e5e032de0f6246ffcdcaa03cb620fe01787b14c00d5b67379b4142    1         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Page Category                                                       210      1                                                        POLITICIAN  210         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Page Admin Top Country                                              210      1                                                                US  210         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Post Created                                                        210    210                                           2023-09-30 18:15:44 EDT    1         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Post Created Date                                                   210    123                                                        2023-09-28    5         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Post Created Time                                                   210    206                                                          17:00:01    3         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Type                                                                210      4                                                             Photo   91         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Total Interactions                                                  210    120                                                                40    7         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Likes                                                             210.0    NaN                                                               NaN  NaN   59.047619    78.745229   5.0    21.0   37.0    59.0    551.0
+Comments                                                          210.0    NaN                                                               NaN  NaN   26.342857    42.857353   0.0     7.0   14.0    27.0    425.0
+Shares                                                            210.0    NaN                                                               NaN  NaN    5.304762     6.926302   0.0     2.0    4.0    6.75     73.0
+Love                                                              210.0    NaN                                                               NaN  NaN    5.085714      8.86487   0.0     1.0    2.0     6.0     71.0
+Wow                                                               210.0    NaN                                                               NaN  NaN    0.219048     0.553042   0.0     0.0    0.0     0.0      4.0
+Haha                                                              210.0    NaN                                                               NaN  NaN    7.166667    14.572237   0.0     2.0    4.0     7.0    134.0
+Sad                                                               210.0    NaN                                                               NaN  NaN     0.62381     3.014543   0.0     0.0    0.0     0.0     40.0
+Angry                                                             210.0    NaN                                                               NaN  NaN     0.92381     2.121637   0.0     0.0    0.0     1.0     14.0
+Care                                                              210.0    NaN                                                               NaN  NaN    1.019048     5.550087   0.0     0.0    0.0     1.0     71.0
+Video Share Status                                                   67      2                                                             owned   66         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Is Video Owner?                                                     210      3                                                                 -  143         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Post Views                                                        210.0    NaN                                                               NaN  NaN  251.938095  1261.165915   0.0     0.0    0.0  273.75  17218.0
+Total Views                                                       210.0    NaN                                                               NaN  NaN  279.757143  1307.294922   0.0     0.0    0.0  287.75  17606.0
+Total Views For All Crossposts                                    210.0    NaN                                                               NaN  NaN         0.0          0.0   0.0     0.0    0.0     0.0      0.0
+Video Length                                                         67     47                                                          00:00:45    4         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Sponsor Id                                                          0.0    NaN                                                               NaN  NaN         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Sponsor Name                                                        0.0    NaN                                                               NaN  NaN         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Sponsor Category                                                    0.0    NaN                                                               NaN  NaN         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+Overperforming Score                                              210.0    NaN                                                               NaN  NaN   -0.560524      2.20501 -5.73 -1.9075 -1.295  1.1375     7.36
+illuminating_scored_messageelection_integrity_Truth_illuminating    0.0    NaN                                                               NaN  NaN         NaN          NaN   NaN     NaN    NaN     NaN      NaN
+advocacy_msg_type_illuminating                                    210.0    NaN                                                               NaN  NaN    0.585714     0.493775   0.0     0.0    1.0     1.0      1.0
+issue_msg_type_illuminating                                       210.0    NaN                                                               NaN  NaN    0.557143     0.497911   0.0     0.0    1.0     1.0      1.0
+attack_msg_type_illuminating                                      210.0    NaN                                                               NaN  NaN    0.285714     0.452833   0.0     0.0    0.0     1.0      1.0
+image_msg_type_illuminating                                       210.0    NaN                                                               NaN  NaN    0.171429     0.377784   0.0     0.0    0.0     0.0      1.0
+cta_msg_type_illuminating                                         210.0    NaN                                                               NaN  NaN    0.152381     0.360249   0.0     0.0    0.0     0.0      1.0
+engagement_cta_subtype_illuminating                               210.0    NaN                                                               NaN  NaN    0.114286     0.318918   0.0     0.0    0.0     0.0      1.0
+fundraising_cta_subtype_illuminating                              210.0    NaN                                                               NaN  NaN    0.004762     0.069007   0.0     0.0    0.0     0.0      1.0
+voting_cta_subtype_illuminating                                   210.0    NaN                                                               NaN  NaN    0.004762     0.069007   0.0     0.0    0.0     0.0      1.0
+covid_topic_illuminating                                          210.0    NaN                                                               NaN  NaN         0.0          0.0   0.0     0.0    0.0     0.0      0.0
+economy_topic_illuminating                                        210.0    NaN                                                               NaN  NaN    0.214286     0.411306   0.0     0.0    0.0     0.0      1.0
+education_topic_illuminating                                      210.0    NaN                                                               NaN  NaN    0.019048     0.137019   0.0     0.0    0.0     0.0      1.0
+environment_topic_illuminating                                    210.0    NaN                                                               NaN  NaN    0.071429     0.258155   0.0     0.0    0.0     0.0      1.0
+foreign_policy_topic_illuminating                                 210.0    NaN                                                               NaN  NaN    0.095238     0.294245   0.0     0.0    0.0     0.0      1.0
+governance_topic_illuminating                                     210.0    NaN                                                               NaN  NaN    0.028571     0.166997   0.0     0.0    0.0     0.0      1.0
+health_topic_illuminating                                         210.0    NaN                                                               NaN  NaN    0.028571     0.166997   0.0     0.0    0.0     0.0      1.0
+immigration_topic_illuminating                                    210.0    NaN                                                               NaN  NaN    0.061905     0.241558   0.0     0.0    0.0     0.0      1.0
+lgbtq_issues_topic_illuminating                                   210.0    NaN                                                               NaN  NaN         0.0          0.0   0.0     0.0    0.0     0.0      0.0
+military_topic_illuminating                                       210.0    NaN                                                               NaN  NaN    0.014286      0.11895   0.0     0.0    0.0     0.0      1.0
+race_and_ethnicity_topic_illuminating                             210.0    NaN                                                               NaN  NaN         0.0          0.0   0.0     0.0    0.0     0.0      0.0
+safety_topic_illuminating                                         210.0    NaN                                                               NaN  NaN    0.042857     0.203019   0.0     0.0    0.0     0.0      1.0
+social_and_cultural_topic_illuminating                            210.0    NaN                                                               NaN  NaN    0.004762     0.069007   0.0     0.0    0.0     0.0      1.0
+technology_and_privacy_topic_illuminating                         210.0    NaN                                                               NaN  NaN         0.0          0.0   0.0     0.0    0.0     0.0      0.0
+womens_issue_topic_illuminating                                   210.0    NaN                                                               NaN  NaN         0.0          0.0   0.0     0.0    0.0     0.0      0.0
+incivility_illuminating                                           210.0    NaN                                                               NaN  NaN     0.17619     0.381892   0.0     0.0    0.0     0.0      1.0
+scam_illuminating                                                 210.0    NaN                                                               NaN  NaN    0.009524     0.097356   0.0     0.0    0.0     0.0      1.0
+freefair_illuminating                                             210.0    NaN                                                               NaN  NaN         0.0          0.0   0.0     0.0    0.0     0.0      0.0
+fraud_illuminating                                                210.0    NaN                                                               NaN  NaN         0.0          0.0   0.0     0.0    0.0     0.0      0.0
+
+Group: Facebook_Id=278df0e37b61bf8a5a6374873b38faddd50fffea73eaeb55c3c6240f79d1ba9f
+                                                                 count unique                                                               top freq      mean        std   min   25%  50%   75%    max
+Facebook_Id                                                         23      1  278df0e37b61bf8a5a6374873b38faddd50fffea73eaeb55c3c6240f79d1ba9f   23       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+post_id                                                             23     23  6d840fe53ff4fb10622adf5d2870aa0acd659ce4856ea230b9c550aadc0f2f8a    1       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Page Category                                                       16      2                                               POLITICAL_CANDIDATE   15       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Page Admin Top Country                                               0      0                                                               NaN  NaN       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Post Created                                                        23     23                                           2024-03-15 10:52:37 EDT    1       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Post Created Date                                                   23     17                                                        2024-04-25    2       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Post Created Time                                                   23     23                                                          10:52:37    1       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Type                                                                23      4                                                             Photo    9       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Total Interactions                                                  23     12                                                                 0    5       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Likes                                                             23.0    NaN                                                               NaN  NaN   6.26087  16.057333   0.0   0.5  2.0   3.5   78.0
+Comments                                                          23.0    NaN                                                               NaN  NaN  3.826087   9.679651   0.0   0.0  0.0   1.5   43.0
+Shares                                                            23.0    NaN                                                               NaN  NaN  0.478261   0.790257   0.0   0.0  0.0   1.0    3.0
+Love                                                              23.0    NaN                                                               NaN  NaN  0.521739   0.994053   0.0   0.0  0.0   1.0    4.0
+Wow                                                               23.0    NaN                                                               NaN  NaN   0.26087   1.053884   0.0   0.0  0.0   0.0    5.0
+Haha                                                              23.0    NaN                                                               NaN  NaN  2.565217  10.166013   0.0   0.0  0.0   0.0   48.0
+Sad                                                               23.0    NaN                                                               NaN  NaN  0.130435   0.625543   0.0   0.0  0.0   0.0    3.0
+Angry                                                             23.0    NaN                                                               NaN  NaN  0.869565   3.957781   0.0   0.0  0.0   0.0   19.0
+Care                                                              23.0    NaN                                                               NaN  NaN  0.173913   0.650327   0.0   0.0  0.0   0.0    3.0
+Video Share Status                                                   4      2                                                             share    3       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Is Video Owner?                                                     23      3                                                                 -   19       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Post Views                                                        23.0    NaN                                                               NaN  NaN  7.608696   30.96881   0.0   0.0  0.0   0.0  149.0
+Total Views                                                       23.0    NaN                                                               NaN  NaN  8.869565  31.467594   0.0   0.0  0.0   0.0  150.0
+Total Views For All Crossposts                                    23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+Video Length                                                         4      4                                                          00:03:38    1       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Sponsor Id                                                         0.0    NaN                                                               NaN  NaN       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Sponsor Name                                                       0.0    NaN                                                               NaN  NaN       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Sponsor Category                                                   0.0    NaN                                                               NaN  NaN       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+Overperforming Score                                              23.0    NaN                                                               NaN  NaN -1.143478   4.540097 -10.0 -0.69 -0.1  0.29  10.42
+illuminating_scored_messageelection_integrity_Truth_illuminating   0.0    NaN                                                               NaN  NaN       NaN        NaN   NaN   NaN  NaN   NaN    NaN
+advocacy_msg_type_illuminating                                    23.0    NaN                                                               NaN  NaN  0.565217    0.50687   0.0   0.0  1.0   1.0    1.0
+issue_msg_type_illuminating                                       23.0    NaN                                                               NaN  NaN   0.26087   0.448978   0.0   0.0  0.0   0.5    1.0
+attack_msg_type_illuminating                                      23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+image_msg_type_illuminating                                       23.0    NaN                                                               NaN  NaN  0.086957   0.288104   0.0   0.0  0.0   0.0    1.0
+cta_msg_type_illuminating                                         23.0    NaN                                                               NaN  NaN  0.347826   0.486985   0.0   0.0  0.0   1.0    1.0
+engagement_cta_subtype_illuminating                               23.0    NaN                                                               NaN  NaN  0.173913   0.387553   0.0   0.0  0.0   0.0    1.0
+fundraising_cta_subtype_illuminating                              23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+voting_cta_subtype_illuminating                                   23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+covid_topic_illuminating                                          23.0    NaN                                                               NaN  NaN  0.304348   0.470472   0.0   0.0  0.0   1.0    1.0
+economy_topic_illuminating                                        23.0    NaN                                                               NaN  NaN  0.086957   0.288104   0.0   0.0  0.0   0.0    1.0
+education_topic_illuminating                                      23.0    NaN                                                               NaN  NaN  0.043478   0.208514   0.0   0.0  0.0   0.0    1.0
+environment_topic_illuminating                                    23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+foreign_policy_topic_illuminating                                 23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+governance_topic_illuminating                                     23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+health_topic_illuminating                                         23.0    NaN                                                               NaN  NaN  0.043478   0.208514   0.0   0.0  0.0   0.0    1.0
+immigration_topic_illuminating                                    23.0    NaN                                                               NaN  NaN  0.043478   0.208514   0.0   0.0  0.0   0.0    1.0
+lgbtq_issues_topic_illuminating                                   23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+military_topic_illuminating                                       23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+race_and_ethnicity_topic_illuminating                             23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+safety_topic_illuminating                                         23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+social_and_cultural_topic_illuminating                            23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+technology_and_privacy_topic_illuminating                         23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+womens_issue_topic_illuminating                                   23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+incivility_illuminating                                           23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+scam_illuminating                                                 23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+freefair_illuminating                                             23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+fraud_illuminating                                                23.0    NaN                                                               NaN  NaN       0.0        0.0   0.0   0.0  0.0   0.0    0.0
+
+Group: Facebook_Id=32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064
+                                                                   count unique                                                               top  freq        mean           std     min   25%   50%   75%        max
+Facebook_Id                                                         9013      1  32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064  9013         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+post_id                                                             9013   9013  30e974e1a9ff3463b7a869383fd98deaf56f74e344d95f43aa28828e33fd4816     1         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Page Category                                                       8303      2                                                            PERSON  4999         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Page Admin Top Country                                              8303      1                                                                US  8303         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Post Created                                                        9013   9012                                           2023-11-22 19:20:24 EST     2         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Post Created Date                                                   9013    377                                                        2024-07-11    65         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Post Created Time                                                   9013   8343                                                          10:27:36     4         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Type                                                                8303      7                                                              Link  6705         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Total Interactions                                                  9013   1229                                                                15   110         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Likes                                                             9013.0    NaN                                                               NaN   NaN   172.39676   1440.594713     0.0  14.0  34.0  99.0    83391.0
+Comments                                                          9013.0    NaN                                                               NaN   NaN   39.676024    265.424393     0.0   3.0  10.0  32.0    18094.0
+Shares                                                            9013.0    NaN                                                               NaN   NaN   34.543992    516.274795     0.0   1.0   4.0  13.0    28313.0
+Love                                                              9013.0    NaN                                                               NaN   NaN   13.485188    303.001105     0.0   0.0   0.0   2.0    22342.0
+Wow                                                               9013.0    NaN                                                               NaN   NaN    2.937424     12.670894     0.0   0.0   1.0   2.0      608.0
+Haha                                                              9013.0    NaN                                                               NaN   NaN   36.421502    435.965232     0.0   0.0   1.0   6.0    32351.0
+Sad                                                               9013.0    NaN                                                               NaN   NaN    3.012205     38.114058     0.0   0.0   0.0   1.0     2905.0
+Angry                                                             9013.0    NaN                                                               NaN   NaN   10.630867     42.376911     0.0   0.0   0.0   8.0     2244.0
+Care                                                              9013.0    NaN                                                               NaN   NaN    1.622323     22.924359     0.0   0.0   0.0   0.0     1042.0
+Video Share Status                                                   134      2                                                             owned   109         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Is Video Owner?                                                     8303      3                                                                 -  8170         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Post Views                                                        8303.0    NaN                                                               NaN   NaN  503.370107  26575.490659     0.0   0.0   0.0   0.0  2129389.0
+Total Views                                                       8303.0    NaN                                                               NaN   NaN  823.972179  32897.353777     0.0   0.0   0.0   0.0  2362073.0
+Total Views For All Crossposts                                    8303.0    NaN                                                               NaN   NaN         0.0           0.0     0.0   0.0   0.0   0.0        0.0
+Video Length                                                         134    102                                                          00:00:16     4         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Sponsor Id                                                           0.0    NaN                                                               NaN   NaN         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Sponsor Name                                                         0.0    NaN                                                               NaN   NaN         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Sponsor Category                                                     0.0    NaN                                                               NaN   NaN         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+Overperforming Score                                              8303.0    NaN                                                               NaN   NaN    -4.61737      9.472621 -198.75 -6.47 -2.71 -1.12     246.78
+illuminating_scored_messageelection_integrity_Truth_illuminating     0.0    NaN                                                               NaN   NaN         NaN           NaN     NaN   NaN   NaN   NaN        NaN
+advocacy_msg_type_illuminating                                    9013.0    NaN                                                               NaN   NaN    0.501276      0.500026     0.0   0.0   1.0   1.0        1.0
+issue_msg_type_illuminating                                       9013.0    NaN                                                               NaN   NaN     0.48197      0.499703     0.0   0.0   0.0   1.0        1.0
+attack_msg_type_illuminating                                      9013.0    NaN                                                               NaN   NaN    0.254077      0.435366     0.0   0.0   0.0   1.0        1.0
+image_msg_type_illuminating                                       9013.0    NaN                                                               NaN   NaN    0.155109      0.362029     0.0   0.0   0.0   0.0        1.0
+cta_msg_type_illuminating                                         9013.0    NaN                                                               NaN   NaN     0.04904      0.215964     0.0   0.0   0.0   0.0        1.0
+engagement_cta_subtype_illuminating                               9013.0    NaN                                                               NaN   NaN    0.050926       0.21986     0.0   0.0   0.0   0.0        1.0
+fundraising_cta_subtype_illuminating                              9013.0    NaN                                                               NaN   NaN    0.004882      0.069703     0.0   0.0   0.0   0.0        1.0
+voting_cta_subtype_illuminating                                   9013.0    NaN                                                               NaN   NaN    0.000555      0.023548     0.0   0.0   0.0   0.0        1.0
+covid_topic_illuminating                                          9013.0    NaN                                                               NaN   NaN    0.021968      0.146588     0.0   0.0   0.0   0.0        1.0
+economy_topic_illuminating                                        9013.0    NaN                                                               NaN   NaN    0.055143      0.228271     0.0   0.0   0.0   0.0        1.0
+education_topic_illuminating                                      9013.0    NaN                                                               NaN   NaN    0.009764      0.098333     0.0   0.0   0.0   0.0        1.0
+environment_topic_illuminating                                    9013.0    NaN                                                               NaN   NaN    0.012759      0.112241     0.0   0.0   0.0   0.0        1.0
+foreign_policy_topic_illuminating                                 9013.0    NaN                                                               NaN   NaN    0.039499      0.194789     0.0   0.0   0.0   0.0        1.0
+governance_topic_illuminating                                     9013.0    NaN                                                               NaN   NaN     0.03495      0.183662     0.0   0.0   0.0   0.0        1.0
+health_topic_illuminating                                         9013.0    NaN                                                               NaN   NaN    0.019416      0.137991     0.0   0.0   0.0   0.0        1.0
+immigration_topic_illuminating                                    9013.0    NaN                                                               NaN   NaN    0.047265      0.212217     0.0   0.0   0.0   0.0        1.0
+lgbtq_issues_topic_illuminating                                   9013.0    NaN                                                               NaN   NaN    0.002219      0.047057     0.0   0.0   0.0   0.0        1.0
+military_topic_illuminating                                       9013.0    NaN                                                               NaN   NaN    0.000888      0.029781     0.0   0.0   0.0   0.0        1.0
+race_and_ethnicity_topic_illuminating                             9013.0    NaN                                                               NaN   NaN    0.023411      0.151212     0.0   0.0   0.0   0.0        1.0
+safety_topic_illuminating                                         9013.0    NaN                                                               NaN   NaN    0.030401      0.171696     0.0   0.0   0.0   0.0        1.0
+social_and_cultural_topic_illuminating                            9013.0    NaN                                                               NaN   NaN    0.052591      0.223227     0.0   0.0   0.0   0.0        1.0
+technology_and_privacy_topic_illuminating                         9013.0    NaN                                                               NaN   NaN    0.002219      0.047057     0.0   0.0   0.0   0.0        1.0
+womens_issue_topic_illuminating                                   9013.0    NaN                                                               NaN   NaN    0.008432      0.091444     0.0   0.0   0.0   0.0        1.0
+incivility_illuminating                                           9013.0    NaN                                                               NaN   NaN    0.126928      0.332911     0.0   0.0   0.0   0.0        1.0
+scam_illuminating                                                 8064.0    NaN                                                               NaN   NaN    0.016741      0.128308     0.0   0.0   0.0   0.0        1.0
+freefair_illuminating                                             9013.0    NaN                                                               NaN   NaN    0.004216      0.064798     0.0   0.0   0.0   0.0        1.0
+fraud_illuminating                                                9013.0    NaN                                                               NaN   NaN    0.015755      0.124533     0.0   0.0   0.0   0.0        1.0
+
+========== Grouped by Facebook_Id and post_id (showing first 3 groups) ==========
+
+Group: Facebook_Id=058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b, post_id=00cb679a6af4c4551755ae374d496227b8f1fd1d39aec772ef21f4ba0a8f2275
+                                                                 count unique                                                               top freq  mean  std   min   25%   50%   75%   max
+Facebook_Id                                                          1      1  058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+post_id                                                              1      1  00cb679a6af4c4551755ae374d496227b8f1fd1d39aec772ef21f4ba0a8f2275    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Page Category                                                        1      1                                                        POLITICIAN    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Page Admin Top Country                                               1      1                                                                US    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Post Created                                                         1      1                                           2023-09-01 10:01:33 EDT    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Post Created Date                                                    1      1                                                        2023-09-01    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Post Created Time                                                    1      1                                                          10:01:33    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Type                                                                 1      1                                                              Link    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Total Interactions                                                   1      1                                                               138    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Likes                                                              1.0    NaN                                                               NaN  NaN  70.0  NaN  70.0  70.0  70.0  70.0  70.0
+Comments                                                           1.0    NaN                                                               NaN  NaN  50.0  NaN  50.0  50.0  50.0  50.0  50.0
+Shares                                                             1.0    NaN                                                               NaN  NaN  10.0  NaN  10.0  10.0  10.0  10.0  10.0
+Love                                                               1.0    NaN                                                               NaN  NaN   2.0  NaN   2.0   2.0   2.0   2.0   2.0
+Wow                                                                1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Haha                                                               1.0    NaN                                                               NaN  NaN   5.0  NaN   5.0   5.0   5.0   5.0   5.0
+Sad                                                                1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Angry                                                              1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Care                                                               1.0    NaN                                                               NaN  NaN   1.0  NaN   1.0   1.0   1.0   1.0   1.0
+Video Share Status                                                   0      0                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Is Video Owner?                                                      1      1                                                                 -    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Post Views                                                         1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Total Views                                                        1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Total Views For All Crossposts                                     1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Video Length                                                         0      0                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Sponsor Id                                                         0.0    NaN                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Sponsor Name                                                       0.0    NaN                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Sponsor Category                                                   0.0    NaN                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Overperforming Score                                               1.0    NaN                                                               NaN  NaN  2.19  NaN  2.19  2.19  2.19  2.19  2.19
+illuminating_scored_messageelection_integrity_Truth_illuminating   0.0    NaN                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+advocacy_msg_type_illuminating                                     1.0    NaN                                                               NaN  NaN   1.0  NaN   1.0   1.0   1.0   1.0   1.0
+issue_msg_type_illuminating                                        1.0    NaN                                                               NaN  NaN   1.0  NaN   1.0   1.0   1.0   1.0   1.0
+attack_msg_type_illuminating                                       1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+image_msg_type_illuminating                                        1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+cta_msg_type_illuminating                                          1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+engagement_cta_subtype_illuminating                                1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+fundraising_cta_subtype_illuminating                               1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+voting_cta_subtype_illuminating                                    1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+covid_topic_illuminating                                           1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+economy_topic_illuminating                                         1.0    NaN                                                               NaN  NaN   1.0  NaN   1.0   1.0   1.0   1.0   1.0
+education_topic_illuminating                                       1.0    NaN                                                               NaN  NaN   1.0  NaN   1.0   1.0   1.0   1.0   1.0
+environment_topic_illuminating                                     1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+foreign_policy_topic_illuminating                                  1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+governance_topic_illuminating                                      1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+health_topic_illuminating                                          1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+immigration_topic_illuminating                                     1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+lgbtq_issues_topic_illuminating                                    1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+military_topic_illuminating                                        1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+race_and_ethnicity_topic_illuminating                              1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+safety_topic_illuminating                                          1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+social_and_cultural_topic_illuminating                             1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+technology_and_privacy_topic_illuminating                          1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+womens_issue_topic_illuminating                                    1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+incivility_illuminating                                            1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+scam_illuminating                                                  1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+freefair_illuminating                                              1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+fraud_illuminating                                                 1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+
+Group: Facebook_Id=058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b, post_id=01244b0adf3dbc10065344e8ee3a0edeac919c4fe74916fa3b78e72d38ffe02e
+                                                                 count unique                                                               top freq  mean  std   min   25%   50%   75%   max
+Facebook_Id                                                          1      1  058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+post_id                                                              1      1  01244b0adf3dbc10065344e8ee3a0edeac919c4fe74916fa3b78e72d38ffe02e    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Page Category                                                        1      1                                                        POLITICIAN    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Page Admin Top Country                                               1      1                                                                US    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Post Created                                                         1      1                                           2023-12-03 11:26:34 EST    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Post Created Date                                                    1      1                                                        2023-12-03    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Post Created Time                                                    1      1                                                          11:26:34    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Type                                                                 1      1                                                             Photo    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Total Interactions                                                   1      1                                                                69    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Likes                                                              1.0    NaN                                                               NaN  NaN  43.0  NaN  43.0  43.0  43.0  43.0  43.0
+Comments                                                           1.0    NaN                                                               NaN  NaN   7.0  NaN   7.0   7.0   7.0   7.0   7.0
+Shares                                                             1.0    NaN                                                               NaN  NaN   4.0  NaN   4.0   4.0   4.0   4.0   4.0
+Love                                                               1.0    NaN                                                               NaN  NaN   5.0  NaN   5.0   5.0   5.0   5.0   5.0
+Wow                                                                1.0    NaN                                                               NaN  NaN   1.0  NaN   1.0   1.0   1.0   1.0   1.0
+Haha                                                               1.0    NaN                                                               NaN  NaN   8.0  NaN   8.0   8.0   8.0   8.0   8.0
+Sad                                                                1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Angry                                                              1.0    NaN                                                               NaN  NaN   1.0  NaN   1.0   1.0   1.0   1.0   1.0
+Care                                                               1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Video Share Status                                                   0      0                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Is Video Owner?                                                      1      1                                                                 -    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Post Views                                                         1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Total Views                                                        1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Total Views For All Crossposts                                     1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Video Length                                                         0      0                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Sponsor Id                                                         0.0    NaN                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Sponsor Name                                                       0.0    NaN                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Sponsor Category                                                   0.0    NaN                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Overperforming Score                                               1.0    NaN                                                               NaN  NaN -1.62  NaN -1.62 -1.62 -1.62 -1.62 -1.62
+illuminating_scored_messageelection_integrity_Truth_illuminating   0.0    NaN                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+advocacy_msg_type_illuminating                                     1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+issue_msg_type_illuminating                                        1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+attack_msg_type_illuminating                                       1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+image_msg_type_illuminating                                        1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+cta_msg_type_illuminating                                          1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+engagement_cta_subtype_illuminating                                1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+fundraising_cta_subtype_illuminating                               1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+voting_cta_subtype_illuminating                                    1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+covid_topic_illuminating                                           1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+economy_topic_illuminating                                         1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+education_topic_illuminating                                       1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+environment_topic_illuminating                                     1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+foreign_policy_topic_illuminating                                  1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+governance_topic_illuminating                                      1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+health_topic_illuminating                                          1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+immigration_topic_illuminating                                     1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+lgbtq_issues_topic_illuminating                                    1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+military_topic_illuminating                                        1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+race_and_ethnicity_topic_illuminating                              1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+safety_topic_illuminating                                          1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+social_and_cultural_topic_illuminating                             1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+technology_and_privacy_topic_illuminating                          1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+womens_issue_topic_illuminating                                    1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+incivility_illuminating                                            1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+scam_illuminating                                                  1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+freefair_illuminating                                              1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+fraud_illuminating                                                 1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+
+Group: Facebook_Id=058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b, post_id=042c4760c4cc3463680d2c4cc0a27f39a2c0db5133c046bf0d946fc44d6bfedd
+                                                                 count unique                                                               top freq  mean  std   min   25%   50%   75%   max
+Facebook_Id                                                          1      1  058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+post_id                                                              1      1  042c4760c4cc3463680d2c4cc0a27f39a2c0db5133c046bf0d946fc44d6bfedd    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Page Category                                                        1      1                                                        POLITICIAN    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Page Admin Top Country                                               1      1                                                                US    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Post Created                                                         1      1                                           2023-09-19 09:35:12 EDT    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Post Created Date                                                    1      1                                                        2023-09-19    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Post Created Time                                                    1      1                                                          09:35:12    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Type                                                                 1      1                                                             Photo    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Total Interactions                                                   1      1                                                               110    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Likes                                                              1.0    NaN                                                               NaN  NaN  80.0  NaN  80.0  80.0  80.0  80.0  80.0
+Comments                                                           1.0    NaN                                                               NaN  NaN  23.0  NaN  23.0  23.0  23.0  23.0  23.0
+Shares                                                             1.0    NaN                                                               NaN  NaN   2.0  NaN   2.0   2.0   2.0   2.0   2.0
+Love                                                               1.0    NaN                                                               NaN  NaN   3.0  NaN   3.0   3.0   3.0   3.0   3.0
+Wow                                                                1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Haha                                                               1.0    NaN                                                               NaN  NaN   2.0  NaN   2.0   2.0   2.0   2.0   2.0
+Sad                                                                1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Angry                                                              1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Care                                                               1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Video Share Status                                                   0      0                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Is Video Owner?                                                      1      1                                                                 -    1   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Post Views                                                         1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Total Views                                                        1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Total Views For All Crossposts                                     1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+Video Length                                                         0      0                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Sponsor Id                                                         0.0    NaN                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Sponsor Name                                                       0.0    NaN                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Sponsor Category                                                   0.0    NaN                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+Overperforming Score                                               1.0    NaN                                                               NaN  NaN -1.01  NaN -1.01 -1.01 -1.01 -1.01 -1.01
+illuminating_scored_messageelection_integrity_Truth_illuminating   0.0    NaN                                                               NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN
+advocacy_msg_type_illuminating                                     1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+issue_msg_type_illuminating                                        1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+attack_msg_type_illuminating                                       1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+image_msg_type_illuminating                                        1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+cta_msg_type_illuminating                                          1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+engagement_cta_subtype_illuminating                                1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+fundraising_cta_subtype_illuminating                               1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+voting_cta_subtype_illuminating                                    1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+covid_topic_illuminating                                           1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+economy_topic_illuminating                                         1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+education_topic_illuminating                                       1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+environment_topic_illuminating                                     1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+foreign_policy_topic_illuminating                                  1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+governance_topic_illuminating                                      1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+health_topic_illuminating                                          1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+immigration_topic_illuminating                                     1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+lgbtq_issues_topic_illuminating                                    1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+military_topic_illuminating                                        1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+race_and_ethnicity_topic_illuminating                              1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+safety_topic_illuminating                                          1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+social_and_cultural_topic_illuminating                             1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+technology_and_privacy_topic_illuminating                          1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+womens_issue_topic_illuminating                                    1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+incivility_illuminating                                            1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+scam_illuminating                                                  1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+freefair_illuminating                                              1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+fraud_illuminating                                                 1.0    NaN                                                               NaN  NaN   0.0  NaN   0.0   0.0   0.0   0.0   0.0
+
+========== Script Completed ==========
+All required descriptive statistics and groupings have been displayed.

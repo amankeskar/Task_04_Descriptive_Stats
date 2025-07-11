@@ -1,0 +1,405 @@
+
+========== Header and First 5 Rows ==========
+Header: ['id', 'url', 'source', 'retweetCount', 'replyCount', 'likeCount', 'quoteCount', 'viewCount', 'createdAt', 'lang', 'bookmarkCount', 'isReply', 'isRetweet', 'isQuote', 'isConversationControlled', 'quoteId', 'inReplyToId', 'month_year', 'illuminating_scored_message', 'election_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'scam_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+
+First 5 rows of data:
+                                                              id                                                              url             source  retweetCount  replyCount  likeCount  quoteCount  viewCount           createdAt lang  bookmarkCount  isReply  isRetweet  isQuote  isConversationControlled  quoteId  inReplyToId month_year                                      illuminating_scored_message  election_integrity_Truth_illuminating  advocacy_msg_type_illuminating  issue_msg_type_illuminating  attack_msg_type_illuminating  image_msg_type_illuminating  cta_msg_type_illuminating  engagement_cta_subtype_illuminating  fundraising_cta_subtype_illuminating  voting_cta_subtype_illuminating  covid_topic_illuminating  economy_topic_illuminating  education_topic_illuminating  environment_topic_illuminating  foreign_policy_topic_illuminating  governance_topic_illuminating  health_topic_illuminating  immigration_topic_illuminating  lgbtq_issues_topic_illuminating  military_topic_illuminating  race_and_ethnicity_topic_illuminating  safety_topic_illuminating  social_and_cultural_topic_illuminating  technology_and_privacy_topic_illuminating  womens_issue_topic_illuminating  incivility_illuminating  scam_illuminating  freefair_illuminating  fraud_illuminating
+cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937 Twitter for iPhone            10          37         94           2      15610 2023-09-30 14:11:00   en              0    False      False    False                     False      NaN          NaN    2023-09 1876a8ce2704af06f47f4cf6c5bcadcda90ca7b2d03e0ca069a8c5eb7af4c983                                    0.0                             1.0                          1.0                           1.0                          0.0                        0.0                                  0.0                                   0.0                              0.0                       0.0                         1.0                           0.0                             0.0                                0.0                            0.0                        0.0                             0.0                              0.0                          0.0                                    0.0                        0.0                                     0.0                                        0.0                              0.0                      1.0                0.0                      0                   0
+0e3db0c35a290c6df3b737d15882846c108cc80a9b7e5ca64a0129d4e3cd3ad7 a1962f54943732a0dc006c33b4b6f5764c7085a1282a59439b891ee0eb59a0dc Twitter for iPhone           421        1005       2697          60     158324 2023-09-29 13:27:24   en             13    False      False    False                     False      NaN          NaN    2023-09 ca5cbace947a7eaae06ef2d2423ff68788e52e76043d5a4bb569a1653707700a                                    0.0                             1.0                          1.0                           1.0                          0.0                        0.0                                  0.0                                   0.0                              0.0                       0.0                         0.0                           0.0                             0.0                                0.0                            0.0                        0.0                             0.0                              0.0                          0.0                                    0.0                        0.0                                     0.0                                        0.0                              0.0                      1.0                0.0                      0                   0
+256905919085d2946d5d187abc6cbe81a8abe3384793b362fa6aa4144bf42776 4ddbbdb7f4d8ef62fccf3ed20c993bb665b8620fedb089e81b43c0c7bc0c613e Twitter for iPhone            39         194        332          12      35535 2023-09-27 20:31:23   en              1    False      False    False                     False      NaN          NaN    2023-09 ac5132800ac8301dd96b6502706c0afad8b483d6d0fdc49e13916621c4adfce8                                    0.0                             0.0                          1.0                           1.0                          1.0                        0.0                                  0.0                                   0.0                              0.0                       0.0                         1.0                           0.0                             0.0                                0.0                            0.0                        0.0                             0.0                              0.0                          0.0                                    0.0                        0.0                                     0.0                                        0.0                              0.0                      1.0                0.0                      0                   0
+a461b32b31e72b222df7fdda0a8e68b0092e31deda33a8652eb443459546a4c4 c7e729c427e714baf06d88a2856a1be07d4ff52e1e633412ce15b0160e8f6c38 Twitter for iPhone            47         332        427          62     199642 2023-09-26 01:52:40   en              7    False      False    False                     False      NaN          NaN    2023-09 b12b8365f96e4ce77fc72599ac977a06fb329e86c2fe839a7350ac649c306d68                                    0.0                             1.0                          0.0                           0.0                          1.0                        0.0                                  0.0                                   0.0                              0.0                       0.0                         0.0                           0.0                             0.0                                0.0                            0.0                        0.0                             0.0                              0.0                          0.0                                    0.0                        0.0                                     0.0                                        0.0                              0.0                      0.0                0.0                      0                   0
+ca2795ec79d62adc1fff06c4d3bc9da0bbc899e32c9b218798ac62a0ceae19dc c589bd751d7e1d275901b184087716d3155a582b16430810211e1344d3ad2785    Twitter Web App            17          46        106           3      17917 2023-09-21 13:24:13   en              2    False      False    False                     False      NaN          NaN    2023-09 58788e34f34d8a3f530dd68d9faf79b2add251dc9a76e0e9ae927483ddd46afb                                    0.0                             1.0                          1.0                           1.0                          1.0                        0.0                                  0.0                                   0.0                              0.0                       0.0                         0.0                           0.0                             0.0                                0.0                            0.0                        1.0                             1.0                              0.0                          0.0                                    0.0                        1.0                                     0.0                                        0.0                              0.0                      1.0                0.0                      0                   0
+
+========== Descriptive Statistics for Entire Dataset ==========
+                                             count unique                                                               top   freq                   mean                  std                    min                    25%                    50%                    75%                    max
+id                                           27304  27304  cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d      1                    NaN                  NaN                    NaN                    NaN                    NaN                    NaN                    NaN
+url                                          27304  27304  f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937      1                    NaN                  NaN                    NaN                    NaN                    NaN                    NaN                    NaN
+source                                       27304     14                                                   Twitter Web App  14930                    NaN                  NaN                    NaN                    NaN                    NaN                    NaN                    NaN
+retweetCount                               27304.0    NaN                                                               NaN    NaN            1322.055193           3405.00424                    0.0                   84.0                  333.0                 1071.0               144615.0
+replyCount                                 27304.0    NaN                                                               NaN    NaN            1063.785013          3174.981654                    0.0                   43.0                  131.0                 501.25               121270.0
+likeCount                                  27304.0    NaN                                                               NaN    NaN            6913.692829         21590.307989                    0.0                  393.0                 1406.0                 5010.0               915221.0
+quoteCount                                 27304.0    NaN                                                               NaN    NaN             128.081563          1131.533468                    0.0                    5.0                   17.0                   69.0               123320.0
+viewCount                                  27304.0    NaN                                                               NaN    NaN          507084.731834       3212173.986297                    5.0               27852.75                70942.0               303663.0            333502775.0
+createdAt                                    27304  27014                                               2023-10-06 04:55:21      4                    NaN                  NaN                    NaN                    NaN                    NaN                    NaN                    NaN
+lang                                         27304     12                                                                en  27281                    NaN                  NaN                    NaN                    NaN                    NaN                    NaN                    NaN
+bookmarkCount                              27304.0    NaN                                                               NaN    NaN             136.213522           712.580294                    0.0                    4.0                   21.0                   76.0                42693.0
+isReply                                      27304      2                                                             False  23930                    NaN                  NaN                    NaN                    NaN                    NaN                    NaN                    NaN
+isRetweet                                    27304      1                                                             False  27304                    NaN                  NaN                    NaN                    NaN                    NaN                    NaN                    NaN
+isQuote                                      27304      2                                                             False  24064                    NaN                  NaN                    NaN                    NaN                    NaN                    NaN                    NaN
+isConversationControlled                     27304      2                                                             False  27296                    NaN                  NaN                    NaN                    NaN                    NaN                    NaN                    NaN
+quoteId                                     3287.0    NaN                                                               NaN    NaN  1764298396658950144.0  68946866493294736.0   791263939015376896.0  1726458551433062912.0  1756495928737825024.0  1816599120544483328.0  1853576168332558336.0
+inReplyToId                                 3345.0    NaN                                                               NaN    NaN  1758285724741999616.0  43611965701560704.0  1240067358422700032.0  1726800730806439936.0  1746641262772649984.0  1789225602731438592.0  1853530653414859008.0
+month_year                                   27304     15                                                           2024-10   3586                    NaN                  NaN                    NaN                    NaN                    NaN                    NaN                    NaN
+illuminating_scored_message                  27304  27136  36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd     21                    NaN                  NaN                    NaN                    NaN                    NaN                    NaN                    NaN
+election_integrity_Truth_illuminating      26034.0    NaN                                                               NaN    NaN               0.037144             0.189118                    0.0                    0.0                    0.0                    0.0                    1.0
+advocacy_msg_type_illuminating             26034.0    NaN                                                               NaN    NaN               0.563686             0.495937                    0.0                    0.0                    1.0                    1.0                    1.0
+issue_msg_type_illuminating                26034.0    NaN                                                               NaN    NaN               0.507682             0.499951                    0.0                    0.0                    1.0                    1.0                    1.0
+attack_msg_type_illuminating               26034.0    NaN                                                               NaN    NaN               0.307598             0.461508                    0.0                    0.0                    0.0                    1.0                    1.0
+image_msg_type_illuminating                26034.0    NaN                                                               NaN    NaN               0.226435             0.418532                    0.0                    0.0                    0.0                    0.0                    1.0
+cta_msg_type_illuminating                  26034.0    NaN                                                               NaN    NaN               0.109664             0.312477                    0.0                    0.0                    0.0                    0.0                    1.0
+engagement_cta_subtype_illuminating        26034.0    NaN                                                               NaN    NaN               0.066912             0.249875                    0.0                    0.0                    0.0                    0.0                    1.0
+fundraising_cta_subtype_illuminating       26034.0    NaN                                                               NaN    NaN               0.007874             0.088389                    0.0                    0.0                    0.0                    0.0                    1.0
+voting_cta_subtype_illuminating            26034.0    NaN                                                               NaN    NaN               0.016786              0.12847                    0.0                    0.0                    0.0                    0.0                    1.0
+covid_topic_illuminating                   26034.0    NaN                                                               NaN    NaN               0.007605             0.086879                    0.0                    0.0                    0.0                    0.0                    1.0
+economy_topic_illuminating                 26034.0    NaN                                                               NaN    NaN               0.160214             0.366811                    0.0                    0.0                    0.0                    0.0                    1.0
+education_topic_illuminating               26034.0    NaN                                                               NaN    NaN               0.018437             0.134529                    0.0                    0.0                    0.0                    0.0                    1.0
+environment_topic_illuminating             26034.0    NaN                                                               NaN    NaN                0.02854             0.166512                    0.0                    0.0                    0.0                    0.0                    1.0
+foreign_policy_topic_illuminating          26034.0    NaN                                                               NaN    NaN               0.042252             0.201168                    0.0                    0.0                    0.0                    0.0                    1.0
+governance_topic_illuminating              26034.0    NaN                                                               NaN    NaN                0.02297             0.149811                    0.0                    0.0                    0.0                    0.0                    1.0
+health_topic_illuminating                  26034.0    NaN                                                               NaN    NaN               0.055658             0.229264                    0.0                    0.0                    0.0                    0.0                    1.0
+immigration_topic_illuminating             26034.0    NaN                                                               NaN    NaN               0.065299             0.247058                    0.0                    0.0                    0.0                    0.0                    1.0
+lgbtq_issues_topic_illuminating            26034.0    NaN                                                               NaN    NaN               0.003073              0.05535                    0.0                    0.0                    0.0                    0.0                    1.0
+military_topic_illuminating                26034.0    NaN                                                               NaN    NaN               0.010986             0.104237                    0.0                    0.0                    0.0                    0.0                    1.0
+race_and_ethnicity_topic_illuminating      26034.0    NaN                                                               NaN    NaN               0.015403             0.123151                    0.0                    0.0                    0.0                    0.0                    1.0
+safety_topic_illuminating                  26034.0    NaN                                                               NaN    NaN               0.037605             0.190242                    0.0                    0.0                    0.0                    0.0                    1.0
+social_and_cultural_topic_illuminating     26034.0    NaN                                                               NaN    NaN               0.051971             0.221972                    0.0                    0.0                    0.0                    0.0                    1.0
+technology_and_privacy_topic_illuminating  26034.0    NaN                                                               NaN    NaN               0.002036             0.045075                    0.0                    0.0                    0.0                    0.0                    1.0
+womens_issue_topic_illuminating            26034.0    NaN                                                               NaN    NaN               0.023316             0.150907                    0.0                    0.0                    0.0                    0.0                    1.0
+incivility_illuminating                    26034.0    NaN                                                               NaN    NaN               0.178574             0.383003                    0.0                    0.0                    0.0                    0.0                    1.0
+scam_illuminating                          26034.0    NaN                                                               NaN    NaN               0.012368             0.110526                    0.0                    0.0                    0.0                    0.0                    1.0
+freefair_illuminating                      27304.0    NaN                                                               NaN    NaN               0.001428             0.037767                    0.0                    0.0                    0.0                    0.0                    1.0
+fraud_illuminating                         27304.0    NaN                                                               NaN    NaN               0.002747             0.052339                    0.0                    0.0                    0.0                    0.0                    1.0
+
+========== Value Counts for Non-Numeric Columns (Top 3) ==========
+
+Column: id
+cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d    1
+e4272c39690914de8078c85eb45bbea8517796ee8fb2572007632a0a475136cd    1
+75ef0d9a2893b5e3903d73cf1213d4f10849748195a8f70f16e0d6b375f49def    1
+
+Column: url
+f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937    1
+5e5fc12720329a7fdfee7e59e57971a432565f1d9af04c35d4b1b934cd13d571    1
+70638604f38d8aadb4f22a6cad9a846c5c9970d37702c79ed59f92793dcf6a31    1
+
+Column: source
+Twitter Web App       14930
+Twitter for iPhone     8494
+Sprout Social          2933
+
+Column: createdAt
+2023-10-06 04:55:21    4
+2024-05-28 17:19:24    4
+2024-08-30 03:04:08    4
+
+Column: lang
+en    27281
+fr        6
+tl        4
+
+Column: month_year
+2024-10    3586
+2024-09    2856
+2024-08    2647
+
+Column: illuminating_scored_message
+36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd    21
+1d2cc25fad0d66a295d4fafdd590d71d0e027a1d2a58cf5db0c58ba09b930e04    18
+e85b31153cfcc753f8657eb033c8e8fb03f6da4c384da1d4e563eef696f6e7a0    10
+
+========== Grouped by source (showing first 3 groups) ==========
+
+Group: source=Canva
+                                          count unique                                                               top freq     mean  std      min      25%      50%      75%      max
+id                                            1      1  5b11b20d90740faeeb08c8ad5724fa3ab78a4364d13016665b0c5a4581beec7b    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+url                                           1      1  050f152d7ab9e30519bc4f251b3930dd36850c414a403fd5c629a2c4564721bd    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+source                                        1      1                                                             Canva    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+retweetCount                                1.0    NaN                                                               NaN  NaN     69.0  NaN     69.0     69.0     69.0     69.0     69.0
+replyCount                                  1.0    NaN                                                               NaN  NaN    324.0  NaN    324.0    324.0    324.0    324.0    324.0
+likeCount                                   1.0    NaN                                                               NaN  NaN    490.0  NaN    490.0    490.0    490.0    490.0    490.0
+quoteCount                                  1.0    NaN                                                               NaN  NaN     40.0  NaN     40.0     40.0     40.0     40.0     40.0
+viewCount                                   1.0    NaN                                                               NaN  NaN  41173.0  NaN  41173.0  41173.0  41173.0  41173.0  41173.0
+createdAt                                     1      1                                               2024-02-29 21:26:10    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+lang                                          1      1                                                                en    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+bookmarkCount                               1.0    NaN                                                               NaN  NaN     16.0  NaN     16.0     16.0     16.0     16.0     16.0
+isReply                                       1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isRetweet                                     1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isQuote                                       1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isConversationControlled                      1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+quoteId                                     0.0    NaN                                                               NaN  NaN      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+inReplyToId                                 0.0    NaN                                                               NaN  NaN      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+month_year                                    1      1                                                           2024-02    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+illuminating_scored_message                   1      1  89985621af1d7e22ee18b78836d7eaaf20fbcf7e01e8a9266c59f4893ef54e59    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+election_integrity_Truth_illuminating       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+advocacy_msg_type_illuminating              1.0    NaN                                                               NaN  NaN      1.0  NaN      1.0      1.0      1.0      1.0      1.0
+issue_msg_type_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+attack_msg_type_illuminating                1.0    NaN                                                               NaN  NaN      1.0  NaN      1.0      1.0      1.0      1.0      1.0
+image_msg_type_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+cta_msg_type_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+engagement_cta_subtype_illuminating         1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+fundraising_cta_subtype_illuminating        1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+voting_cta_subtype_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+covid_topic_illuminating                    1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+economy_topic_illuminating                  1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+education_topic_illuminating                1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+environment_topic_illuminating              1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+foreign_policy_topic_illuminating           1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+governance_topic_illuminating               1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+health_topic_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+immigration_topic_illuminating              1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+lgbtq_issues_topic_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+military_topic_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+race_and_ethnicity_topic_illuminating       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+safety_topic_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+social_and_cultural_topic_illuminating      1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+technology_and_privacy_topic_illuminating   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+womens_issue_topic_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+incivility_illuminating                     1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+scam_illuminating                           1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+freefair_illuminating                       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+fraud_illuminating                          1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+
+Group: source=Hootsuite Inc.
+                                          count unique                                                               top freq          mean           std      min      25%      50%      75%      max
+id                                           47     47  5354908dccb40525b2d42c46902a86f5a9f39e4c8961af02b2372cab0d0e497f    1           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+url                                          47     47  f428cd263ba408fab8558e9b9d186a2810d1bf0e9ffd1373b9dc3a6937a5db8e    1           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+source                                       47      1                                                    Hootsuite Inc.   47           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+retweetCount                               47.0    NaN                                                               NaN  NaN    129.978723    137.673288     47.0     63.0     86.0    146.5    780.0
+replyCount                                 47.0    NaN                                                               NaN  NaN     37.191489     30.110404      8.0     18.5     28.0     43.0    168.0
+likeCount                                  47.0    NaN                                                               NaN  NaN    380.829787    404.715376    120.0    173.0    241.0    443.5   2195.0
+quoteCount                                 47.0    NaN                                                               NaN  NaN      7.531915      8.619621      0.0      2.0      5.0      9.5     44.0
+viewCount                                  47.0    NaN                                                               NaN  NaN  29066.617021  13547.323401  13542.0  19447.0  24063.0  33948.5  68518.0
+createdAt                                    47     47                                               2024-02-27 16:02:48    1           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+lang                                         47      1                                                                en   47           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+bookmarkCount                              47.0    NaN                                                               NaN  NaN      8.446809     10.576447      1.0      2.0      5.0     10.0     56.0
+isReply                                      47      1                                                             False   47           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+isRetweet                                    47      1                                                             False   47           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+isQuote                                      47      1                                                             False   47           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+isConversationControlled                     47      1                                                             False   47           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+quoteId                                     0.0    NaN                                                               NaN  NaN           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+inReplyToId                                 0.0    NaN                                                               NaN  NaN           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+month_year                                   47      8                                                           2024-03   11           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+illuminating_scored_message                  47     47  a25f3ec57aff02964e8c82c60c021b784484bd49b4255da63631b1c9125da450    1           NaN           NaN      NaN      NaN      NaN      NaN      NaN
+election_integrity_Truth_illuminating      41.0    NaN                                                               NaN  NaN       0.02439      0.156174      0.0      0.0      0.0      0.0      1.0
+advocacy_msg_type_illuminating             41.0    NaN                                                               NaN  NaN      0.463415      0.504854      0.0      0.0      0.0      1.0      1.0
+issue_msg_type_illuminating                41.0    NaN                                                               NaN  NaN      0.341463      0.480091      0.0      0.0      0.0      1.0      1.0
+attack_msg_type_illuminating               41.0    NaN                                                               NaN  NaN       0.02439      0.156174      0.0      0.0      0.0      0.0      1.0
+image_msg_type_illuminating                41.0    NaN                                                               NaN  NaN       0.02439      0.156174      0.0      0.0      0.0      0.0      1.0
+cta_msg_type_illuminating                  41.0    NaN                                                               NaN  NaN      0.829268      0.380949      0.0      1.0      1.0      1.0      1.0
+engagement_cta_subtype_illuminating        41.0    NaN                                                               NaN  NaN      0.585366      0.498779      0.0      0.0      1.0      1.0      1.0
+fundraising_cta_subtype_illuminating       41.0    NaN                                                               NaN  NaN      0.073171      0.263652      0.0      0.0      0.0      0.0      1.0
+voting_cta_subtype_illuminating            41.0    NaN                                                               NaN  NaN           0.0           0.0      0.0      0.0      0.0      0.0      0.0
+covid_topic_illuminating                   41.0    NaN                                                               NaN  NaN           0.0           0.0      0.0      0.0      0.0      0.0      0.0
+economy_topic_illuminating                 41.0    NaN                                                               NaN  NaN           0.0           0.0      0.0      0.0      0.0      0.0      0.0
+education_topic_illuminating               41.0    NaN                                                               NaN  NaN       0.02439      0.156174      0.0      0.0      0.0      0.0      1.0
+environment_topic_illuminating             41.0    NaN                                                               NaN  NaN           0.0           0.0      0.0      0.0      0.0      0.0      0.0
+foreign_policy_topic_illuminating          41.0    NaN                                                               NaN  NaN       0.02439      0.156174      0.0      0.0      0.0      0.0      1.0
+governance_topic_illuminating              41.0    NaN                                                               NaN  NaN           0.0           0.0      0.0      0.0      0.0      0.0      0.0
+health_topic_illuminating                  41.0    NaN                                                               NaN  NaN      0.073171      0.263652      0.0      0.0      0.0      0.0      1.0
+immigration_topic_illuminating             41.0    NaN                                                               NaN  NaN       0.02439      0.156174      0.0      0.0      0.0      0.0      1.0
+lgbtq_issues_topic_illuminating            41.0    NaN                                                               NaN  NaN       0.02439      0.156174      0.0      0.0      0.0      0.0      1.0
+military_topic_illuminating                41.0    NaN                                                               NaN  NaN           0.0           0.0      0.0      0.0      0.0      0.0      0.0
+race_and_ethnicity_topic_illuminating      41.0    NaN                                                               NaN  NaN       0.04878      0.218085      0.0      0.0      0.0      0.0      1.0
+safety_topic_illuminating                  41.0    NaN                                                               NaN  NaN       0.02439      0.156174      0.0      0.0      0.0      0.0      1.0
+social_and_cultural_topic_illuminating     41.0    NaN                                                               NaN  NaN      0.121951      0.331295      0.0      0.0      0.0      0.0      1.0
+technology_and_privacy_topic_illuminating  41.0    NaN                                                               NaN  NaN           0.0           0.0      0.0      0.0      0.0      0.0      0.0
+womens_issue_topic_illuminating            41.0    NaN                                                               NaN  NaN       0.02439      0.156174      0.0      0.0      0.0      0.0      1.0
+incivility_illuminating                    41.0    NaN                                                               NaN  NaN           0.0           0.0      0.0      0.0      0.0      0.0      0.0
+scam_illuminating                          41.0    NaN                                                               NaN  NaN       0.02439      0.156174      0.0      0.0      0.0      0.0      1.0
+freefair_illuminating                      47.0    NaN                                                               NaN  NaN           0.0           0.0      0.0      0.0      0.0      0.0      0.0
+fraud_illuminating                         47.0    NaN                                                               NaN  NaN      0.021277      0.145865      0.0      0.0      0.0      0.0      1.0
+
+Group: source=Later Media
+                                          count unique                                                               top freq     mean  std      min      25%      50%      75%      max
+id                                            1      1  2d9cfc7b380157ca2d41ac35c61fe9d530b4ea58662064c71726c2e733eefccb    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+url                                           1      1  5fc4e0f1baa6eb4aaf3bc4b219055200c8a34d645c148b55b700d206d7c3d577    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+source                                        1      1                                                       Later Media    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+retweetCount                                1.0    NaN                                                               NaN  NaN     93.0  NaN     93.0     93.0     93.0     93.0     93.0
+replyCount                                  1.0    NaN                                                               NaN  NaN     18.0  NaN     18.0     18.0     18.0     18.0     18.0
+likeCount                                   1.0    NaN                                                               NaN  NaN    280.0  NaN    280.0    280.0    280.0    280.0    280.0
+quoteCount                                  1.0    NaN                                                               NaN  NaN     10.0  NaN     10.0     10.0     10.0     10.0     10.0
+viewCount                                   1.0    NaN                                                               NaN  NaN  12847.0  NaN  12847.0  12847.0  12847.0  12847.0  12847.0
+createdAt                                     1      1                                               2024-02-01 11:10:49    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+lang                                          1      1                                                                en    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+bookmarkCount                               1.0    NaN                                                               NaN  NaN      5.0  NaN      5.0      5.0      5.0      5.0      5.0
+isReply                                       1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isRetweet                                     1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isQuote                                       1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isConversationControlled                      1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+quoteId                                     0.0    NaN                                                               NaN  NaN      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+inReplyToId                                 0.0    NaN                                                               NaN  NaN      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+month_year                                    1      1                                                           2024-02    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+illuminating_scored_message                   1      1  0aca51b1885c946a27ef08b05108fb1c76c83f18541cfbd20941061922eb3c9c    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+election_integrity_Truth_illuminating       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+advocacy_msg_type_illuminating              1.0    NaN                                                               NaN  NaN      1.0  NaN      1.0      1.0      1.0      1.0      1.0
+issue_msg_type_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+attack_msg_type_illuminating                1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+image_msg_type_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+cta_msg_type_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+engagement_cta_subtype_illuminating         1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+fundraising_cta_subtype_illuminating        1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+voting_cta_subtype_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+covid_topic_illuminating                    1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+economy_topic_illuminating                  1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+education_topic_illuminating                1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+environment_topic_illuminating              1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+foreign_policy_topic_illuminating           1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+governance_topic_illuminating               1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+health_topic_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+immigration_topic_illuminating              1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+lgbtq_issues_topic_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+military_topic_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+race_and_ethnicity_topic_illuminating       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+safety_topic_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+social_and_cultural_topic_illuminating      1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+technology_and_privacy_topic_illuminating   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+womens_issue_topic_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+incivility_illuminating                     1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+scam_illuminating                           1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+freefair_illuminating                       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+fraud_illuminating                          1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+
+========== Grouped by source and id (showing first 3 groups) ==========
+
+Group: source=Canva, id=5b11b20d90740faeeb08c8ad5724fa3ab78a4364d13016665b0c5a4581beec7b
+                                          count unique                                                               top freq     mean  std      min      25%      50%      75%      max
+id                                            1      1  5b11b20d90740faeeb08c8ad5724fa3ab78a4364d13016665b0c5a4581beec7b    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+url                                           1      1  050f152d7ab9e30519bc4f251b3930dd36850c414a403fd5c629a2c4564721bd    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+source                                        1      1                                                             Canva    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+retweetCount                                1.0    NaN                                                               NaN  NaN     69.0  NaN     69.0     69.0     69.0     69.0     69.0
+replyCount                                  1.0    NaN                                                               NaN  NaN    324.0  NaN    324.0    324.0    324.0    324.0    324.0
+likeCount                                   1.0    NaN                                                               NaN  NaN    490.0  NaN    490.0    490.0    490.0    490.0    490.0
+quoteCount                                  1.0    NaN                                                               NaN  NaN     40.0  NaN     40.0     40.0     40.0     40.0     40.0
+viewCount                                   1.0    NaN                                                               NaN  NaN  41173.0  NaN  41173.0  41173.0  41173.0  41173.0  41173.0
+createdAt                                     1      1                                               2024-02-29 21:26:10    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+lang                                          1      1                                                                en    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+bookmarkCount                               1.0    NaN                                                               NaN  NaN     16.0  NaN     16.0     16.0     16.0     16.0     16.0
+isReply                                       1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isRetweet                                     1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isQuote                                       1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isConversationControlled                      1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+quoteId                                     0.0    NaN                                                               NaN  NaN      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+inReplyToId                                 0.0    NaN                                                               NaN  NaN      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+month_year                                    1      1                                                           2024-02    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+illuminating_scored_message                   1      1  89985621af1d7e22ee18b78836d7eaaf20fbcf7e01e8a9266c59f4893ef54e59    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+election_integrity_Truth_illuminating       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+advocacy_msg_type_illuminating              1.0    NaN                                                               NaN  NaN      1.0  NaN      1.0      1.0      1.0      1.0      1.0
+issue_msg_type_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+attack_msg_type_illuminating                1.0    NaN                                                               NaN  NaN      1.0  NaN      1.0      1.0      1.0      1.0      1.0
+image_msg_type_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+cta_msg_type_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+engagement_cta_subtype_illuminating         1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+fundraising_cta_subtype_illuminating        1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+voting_cta_subtype_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+covid_topic_illuminating                    1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+economy_topic_illuminating                  1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+education_topic_illuminating                1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+environment_topic_illuminating              1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+foreign_policy_topic_illuminating           1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+governance_topic_illuminating               1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+health_topic_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+immigration_topic_illuminating              1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+lgbtq_issues_topic_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+military_topic_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+race_and_ethnicity_topic_illuminating       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+safety_topic_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+social_and_cultural_topic_illuminating      1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+technology_and_privacy_topic_illuminating   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+womens_issue_topic_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+incivility_illuminating                     1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+scam_illuminating                           1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+freefair_illuminating                       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+fraud_illuminating                          1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+
+Group: source=Hootsuite Inc., id=07c50726e45ecca764dfcfc7ef041227e20308a21cb22327bef29f237d2f576a
+                                          count unique                                                               top freq     mean  std      min      25%      50%      75%      max
+id                                            1      1  07c50726e45ecca764dfcfc7ef041227e20308a21cb22327bef29f237d2f576a    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+url                                           1      1  7f824433a02ff9b3537108470aae759c0ea833ae7dcc9f5d11cffc646a75d6dc    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+source                                        1      1                                                    Hootsuite Inc.    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+retweetCount                                1.0    NaN                                                               NaN  NaN    117.0  NaN    117.0    117.0    117.0    117.0    117.0
+replyCount                                  1.0    NaN                                                               NaN  NaN     56.0  NaN     56.0     56.0     56.0     56.0     56.0
+likeCount                                   1.0    NaN                                                               NaN  NaN    425.0  NaN    425.0    425.0    425.0    425.0    425.0
+quoteCount                                  1.0    NaN                                                               NaN  NaN      7.0  NaN      7.0      7.0      7.0      7.0      7.0
+viewCount                                   1.0    NaN                                                               NaN  NaN  24975.0  NaN  24975.0  24975.0  24975.0  24975.0  24975.0
+createdAt                                     1      1                                               2024-10-12 16:50:15    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+lang                                          1      1                                                                en    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+bookmarkCount                               1.0    NaN                                                               NaN  NaN     14.0  NaN     14.0     14.0     14.0     14.0     14.0
+isReply                                       1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isRetweet                                     1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isQuote                                       1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isConversationControlled                      1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+quoteId                                     0.0    NaN                                                               NaN  NaN      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+inReplyToId                                 0.0    NaN                                                               NaN  NaN      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+month_year                                    1      1                                                           2024-10    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+illuminating_scored_message                   1      1  64faac265ac4f304303b28e5b474561bbe8190bf8b69019fdb40781297e093f6    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+election_integrity_Truth_illuminating       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+advocacy_msg_type_illuminating              1.0    NaN                                                               NaN  NaN      1.0  NaN      1.0      1.0      1.0      1.0      1.0
+issue_msg_type_illuminating                 1.0    NaN                                                               NaN  NaN      1.0  NaN      1.0      1.0      1.0      1.0      1.0
+attack_msg_type_illuminating                1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+image_msg_type_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+cta_msg_type_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+engagement_cta_subtype_illuminating         1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+fundraising_cta_subtype_illuminating        1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+voting_cta_subtype_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+covid_topic_illuminating                    1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+economy_topic_illuminating                  1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+education_topic_illuminating                1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+environment_topic_illuminating              1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+foreign_policy_topic_illuminating           1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+governance_topic_illuminating               1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+health_topic_illuminating                   1.0    NaN                                                               NaN  NaN      1.0  NaN      1.0      1.0      1.0      1.0      1.0
+immigration_topic_illuminating              1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+lgbtq_issues_topic_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+military_topic_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+race_and_ethnicity_topic_illuminating       1.0    NaN                                                               NaN  NaN      1.0  NaN      1.0      1.0      1.0      1.0      1.0
+safety_topic_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+social_and_cultural_topic_illuminating      1.0    NaN                                                               NaN  NaN      1.0  NaN      1.0      1.0      1.0      1.0      1.0
+technology_and_privacy_topic_illuminating   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+womens_issue_topic_illuminating             1.0    NaN                                                               NaN  NaN      1.0  NaN      1.0      1.0      1.0      1.0      1.0
+incivility_illuminating                     1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+scam_illuminating                           1.0    NaN                                                               NaN  NaN      1.0  NaN      1.0      1.0      1.0      1.0      1.0
+freefair_illuminating                       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+fraud_illuminating                          1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+
+Group: source=Hootsuite Inc., id=0abf23b6071b786a87d82289e0225eae28c2bcc90beb4a74c338275e578a9650
+                                          count unique                                                               top freq     mean  std      min      25%      50%      75%      max
+id                                            1      1  0abf23b6071b786a87d82289e0225eae28c2bcc90beb4a74c338275e578a9650    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+url                                           1      1  9064d90d709c0d36b184a6b2df585fe62825e7a804056fb87841313953381c84    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+source                                        1      1                                                    Hootsuite Inc.    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+retweetCount                                1.0    NaN                                                               NaN  NaN    252.0  NaN    252.0    252.0    252.0    252.0    252.0
+replyCount                                  1.0    NaN                                                               NaN  NaN     98.0  NaN     98.0     98.0     98.0     98.0     98.0
+likeCount                                   1.0    NaN                                                               NaN  NaN   1094.0  NaN   1094.0   1094.0   1094.0   1094.0   1094.0
+quoteCount                                  1.0    NaN                                                               NaN  NaN     25.0  NaN     25.0     25.0     25.0     25.0     25.0
+viewCount                                   1.0    NaN                                                               NaN  NaN  44472.0  NaN  44472.0  44472.0  44472.0  44472.0  44472.0
+createdAt                                     1      1                                               2024-08-23 01:08:46    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+lang                                          1      1                                                                en    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+bookmarkCount                               1.0    NaN                                                               NaN  NaN      7.0  NaN      7.0      7.0      7.0      7.0      7.0
+isReply                                       1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isRetweet                                     1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isQuote                                       1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+isConversationControlled                      1      1                                                             False    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+quoteId                                     0.0    NaN                                                               NaN  NaN      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+inReplyToId                                 0.0    NaN                                                               NaN  NaN      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+month_year                                    1      1                                                           2024-08    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+illuminating_scored_message                   1      1  c12f2e91aed2e3bcb7e24abea40abfd4c77b8fb0ccc7a12393dc929c9fb590ea    1      NaN  NaN      NaN      NaN      NaN      NaN      NaN
+election_integrity_Truth_illuminating       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+advocacy_msg_type_illuminating              1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+issue_msg_type_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+attack_msg_type_illuminating                1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+image_msg_type_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+cta_msg_type_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+engagement_cta_subtype_illuminating         1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+fundraising_cta_subtype_illuminating        1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+voting_cta_subtype_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+covid_topic_illuminating                    1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+economy_topic_illuminating                  1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+education_topic_illuminating                1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+environment_topic_illuminating              1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+foreign_policy_topic_illuminating           1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+governance_topic_illuminating               1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+health_topic_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+immigration_topic_illuminating              1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+lgbtq_issues_topic_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+military_topic_illuminating                 1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+race_and_ethnicity_topic_illuminating       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+safety_topic_illuminating                   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+social_and_cultural_topic_illuminating      1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+technology_and_privacy_topic_illuminating   1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+womens_issue_topic_illuminating             1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+incivility_illuminating                     1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+scam_illuminating                           1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+freefair_illuminating                       1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+fraud_illuminating                          1.0    NaN                                                               NaN  NaN      0.0  NaN      0.0      0.0      0.0      0.0      0.0
+
+========== Script Completed ==========
+All required descriptive statistics and groupings have been displayed.
